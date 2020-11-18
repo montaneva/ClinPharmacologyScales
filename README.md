@@ -7,12 +7,12 @@ May work as online calculators (inactive surveys)
 Instruments:
 
 - AGEP Score of the EuroSCAR Study Group :  
-Acute generalized exanthematous pustulosis (AGEP)--a clinical reaction pattern.
+Acute generalized exanthematous pustulosis (AGEP). A clinical reaction pattern.
 https://pubmed.ncbi.nlm.nih.gov/11168761/
 
 
 - CIOMS-RUCAM :  
-Causality assessment of adverse reactions to drugs--I. A novel method based on the conclusions of international consensus meetings: application to drug-induced liver injuries.
+Causality assessment of adverse reactions to drugs. A novel method based on the conclusions of international consensus meetings: application to drug-induced liver injuries.
 https://pubmed.ncbi.nlm.nih.gov/8229110/
 
 
