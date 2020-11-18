@@ -1,0 +1,1284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * @Tool		Clostridium Difficile Associated Disease Severity Score for LimeSurvey
+ * @Copyright	Copyright 2020 MONTANÉ Eva 
+ * @License		MIT http://mit-license.org
+-->
+<document>
+ <LimeSurveyDocType>Survey</LimeSurveyDocType>
+ <DBVersion>184</DBVersion>
+ <languages>
+  <language>en</language>
+ </languages>
+ <assessments>
+  <fields>
+   <fieldname>id</fieldname>
+   <fieldname>sid</fieldname>
+   <fieldname>scope</fieldname>
+   <fieldname>gid</fieldname>
+   <fieldname>name</fieldname>
+   <fieldname>minimum</fieldname>
+   <fieldname>maximum</fieldname>
+   <fieldname>message</fieldname>
+   <fieldname>language</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <id><![CDATA[6]]></id>
+    <sid><![CDATA[21865943]]></sid>
+    <scope><![CDATA[T]]></scope>
+    <gid><![CDATA[0]]></gid>
+    <name><![CDATA[ ]]></name>
+    <minimum><![CDATA[0]]></minimum>
+    <maximum><![CDATA[29]]></maximum>
+    <message><![CDATA[<script type="text/javascript">
+
+	$(function(){
+
+		$( "<style type='text/css' media='print, screen and (min-width:481px)'>"
+
+		+".result_tbl { width:570px  !important}"
+
+		+"</style>").appendTo( "head" );
+
+//
+
+		$( "<style type='text/css'>"
+
+		+"#result_tbl1 td:nth-child(2){ width:75px  !important}"
+
+		+"</style>").appendTo( "head" );
+
+	});
+
+</script>
+
+<table id="result_tbl1" class="result_tbl">
+
+<tbody>
+
+<tr>
+
+<td>{q1_A1.question}&nbsp;</td>
+
+<td>: {if (q1_A1.code == 'Y' , 'Yes [+1]' , ' &nbsp; &nbsp;- ')}</td>
+
+</tr><tr>
+
+<td>{q1_A3.question}&nbsp;</td>
+
+<td>: {if (q1_A2.code == 'Y' , 'Yes [+1]' , ' &nbsp; &nbsp;- ')}</td>
+
+</tr><tr>
+
+<td>{q1_A1.question}&nbsp;</td>
+
+<td>: {if (q1_A3.code == 'Y' , 'Yes [+1]' , ' &nbsp; &nbsp;- ')}</td>
+
+</tr><tr>
+
+<td>{q1_A4.question}&nbsp;</td>
+
+<td>: {if (q1_A4.code == 'Y' , 'Yes [+1]' , ' &nbsp; &nbsp;- ')}</td>
+
+</tr><tr>
+
+<td>{q1_A5.question}&nbsp;</td>
+
+<td>: {if (q1_A5.code == 'Y' , 'Yes [+1]' , ' &nbsp; &nbsp;- ')}</td>
+
+</tr><tr>
+
+<td>{q2_A1.question}&nbsp;</td>
+
+<td>: {if (q2_A1.code == 'Y' , 'Yes [+2]' , ' &nbsp; &nbsp;- ')}</td>
+
+</tr><tr>
+
+<td>{q2_A2.question}&nbsp;</td>
+
+<td>: {if (q2_A2.code == 'Y' , 'Yes [+2]' , ' &nbsp; &nbsp;- ')}</td>
+
+</tr><tr>
+
+<td>{q2_A3.question}&nbsp;</td>
+
+<td>: {if (q2_A3.code == 'Y' , 'Yes [+2]' , ' &nbsp; &nbsp;- ')}</td></tr>
+
+<tr>
+
+<td>{q3_A1.question}&nbsp;</td>
+
+<td>: {if (q3_A1.code == 'Y' , 'Yes [+3]' , ' &nbsp; &nbsp;- ')}</td>
+
+</tr><tr>
+
+<td>{q5_A1.question}&nbsp;</td>
+
+<td>: {if (q5_A1.code == 'Y' , 'Yes [+5]' , ' &nbsp; &nbsp;- ')}</td>
+
+</tr><tr>
+
+<td>{q5_A2.question}&nbsp;</td>
+
+<td>: {if (q5_A2.code == 'Y' , 'Yes [+5]' , ' &nbsp; &nbsp;- ')}</td>
+
+</tr><tr>
+
+<td>{q5_A3.question}&nbsp;</td>
+
+<td>: {if (q5_A3.code == 'Y' , 'Yes [+5]' , ' &nbsp; &nbsp;- ')}</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+
+
+<table id="result_tbl2" class="result_tbl">
+
+<tbody>
+
+<tr>
+
+<td colspan="2"><center>CDAD Severity Score: {Qscore}</center></td>
+
+</tr><tr>
+
+<td colspan="2"><center>Number of criteria met: {ASSESSMENT_CURRENT_TOTAL}</center></td>
+
+</tr><tr>
+
+<td colspan="2"><center><strong>{Qassess}</strong></center></td>
+
+
+
+</tr>
+
+
+
+</tbody>
+
+
+
+</table>]]></message>
+    <language><![CDATA[en]]></language>
+   </row>
+  </rows>
+ </assessments>
+ <groups>
+  <fields>
+   <fieldname>gid</fieldname>
+   <fieldname>sid</fieldname>
+   <fieldname>group_name</fieldname>
+   <fieldname>group_order</fieldname>
+   <fieldname>description</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>randomization_group</fieldname>
+   <fieldname>grelevance</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <gid><![CDATA[6]]></gid>
+    <sid><![CDATA[21865943]]></sid>
+    <group_name><![CDATA[CDAD Severity Scoring System]]></group_name>
+    <group_order><![CDATA[0]]></group_order>
+    <description/>
+    <language><![CDATA[en]]></language>
+    <randomization_group/>
+    <grelevance/>
+   </row>
+  </rows>
+ </groups>
+ <questions>
+  <fields>
+   <fieldname>qid</fieldname>
+   <fieldname>parent_qid</fieldname>
+   <fieldname>sid</fieldname>
+   <fieldname>gid</fieldname>
+   <fieldname>type</fieldname>
+   <fieldname>title</fieldname>
+   <fieldname>question</fieldname>
+   <fieldname>preg</fieldname>
+   <fieldname>help</fieldname>
+   <fieldname>other</fieldname>
+   <fieldname>mandatory</fieldname>
+   <fieldname>question_order</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>scale_id</fieldname>
+   <fieldname>same_default</fieldname>
+   <fieldname>relevance</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <qid><![CDATA[62]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[21865943]]></sid>
+    <gid><![CDATA[6]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[q1]]></title>
+    <question><![CDATA[<span class="explain">+1 point</span>]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[0]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance/>
+   </row>
+   <row>
+    <qid><![CDATA[63]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[21865943]]></sid>
+    <gid><![CDATA[6]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[q2]]></title>
+    <question><![CDATA[<span class="explain">+2 points</span>]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[13]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance/>
+   </row>
+   <row>
+    <qid><![CDATA[64]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[21865943]]></sid>
+    <gid><![CDATA[6]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[q3]]></title>
+    <question><![CDATA[<span class="explain">+3 points</span>]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[14]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance/>
+   </row>
+   <row>
+    <qid><![CDATA[65]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[21865943]]></sid>
+    <gid><![CDATA[6]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[q5]]></title>
+    <question><![CDATA[<span class="explain">+5 points</span>]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[15]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance/>
+   </row>
+   <row>
+    <qid><![CDATA[66]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[21865943]]></sid>
+    <gid><![CDATA[6]]></gid>
+    <type><![CDATA[*]]></type>
+    <title><![CDATA[Qscore]]></title>
+    <question><![CDATA[<span class="score_before">{sum((count(that.q5)*5)+(count(that.q3)*3)+(count(that.q2)*2)+(count(that.q1)))}</span>]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[16]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[ 1]]></relevance>
+   </row>
+   <row>
+    <qid><![CDATA[67]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[21865943]]></sid>
+    <gid><![CDATA[6]]></gid>
+    <type><![CDATA[*]]></type>
+    <title><![CDATA[Qassess]]></title>
+    <question><![CDATA[{if(Qscore <= 3,'Mild to Moderate Disease ', if(Qscore <= 6, '<font color=coral>Severe Disease</font>' ,'<font color=red>Severe Complicated Disease</font>'))}
+
+<script type="text/javascript">
+
+$(function(){
+
+$("input").click(function(){
+
+$( "<style type='text/css'>"
+
++" .fs{QID} { display:block !important}"
+
++"</style>").appendTo( "head" );
+
+});});
+
+</script>]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[17]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+   </row>
+  </rows>
+ </questions>
+ <subquestions>
+  <fields>
+   <fieldname>qid</fieldname>
+   <fieldname>parent_qid</fieldname>
+   <fieldname>sid</fieldname>
+   <fieldname>gid</fieldname>
+   <fieldname>type</fieldname>
+   <fieldname>title</fieldname>
+   <fieldname>question</fieldname>
+   <fieldname>preg</fieldname>
+   <fieldname>help</fieldname>
+   <fieldname>other</fieldname>
+   <fieldname>mandatory</fieldname>
+   <fieldname>question_order</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>scale_id</fieldname>
+   <fieldname>same_default</fieldname>
+   <fieldname>relevance</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <qid><![CDATA[68]]></qid>
+    <parent_qid><![CDATA[62]]></parent_qid>
+    <sid><![CDATA[21865943]]></sid>
+    <gid><![CDATA[6]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[A1]]></title>
+    <question><![CDATA[Immunosuppression and/or chronic medical condition]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[4]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance/>
+   </row>
+   <row>
+    <qid><![CDATA[69]]></qid>
+    <parent_qid><![CDATA[62]]></parent_qid>
+    <sid><![CDATA[21865943]]></sid>
+    <gid><![CDATA[6]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[A2]]></title>
+    <question><![CDATA[Abdominal pain and/or distention]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[7]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance/>
+   </row>
+   <row>
+    <qid><![CDATA[70]]></qid>
+    <parent_qid><![CDATA[63]]></parent_qid>
+    <sid><![CDATA[21865943]]></sid>
+    <gid><![CDATA[6]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[A1]]></title>
+    <question><![CDATA[CT scan with nonspecific findings of pancolitis, 2 ascites, and/or bowel wall thickening]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance/>
+   </row>
+   <row>
+    <qid><![CDATA[71]]></qid>
+    <parent_qid><![CDATA[64]]></parent_qid>
+    <sid><![CDATA[21865943]]></sid>
+    <gid><![CDATA[6]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[A1]]></title>
+    <question><![CDATA[Abdominal peritoneal signs]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[2]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance/>
+   </row>
+   <row>
+    <qid><![CDATA[72]]></qid>
+    <parent_qid><![CDATA[65]]></parent_qid>
+    <sid><![CDATA[21865943]]></sid>
+    <gid><![CDATA[6]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[A1]]></title>
+    <question><![CDATA[Vasopressors required]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance/>
+   </row>
+   <row>
+    <qid><![CDATA[73]]></qid>
+    <parent_qid><![CDATA[65]]></parent_qid>
+    <sid><![CDATA[21865943]]></sid>
+    <gid><![CDATA[6]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[A2]]></title>
+    <question><![CDATA[Mechanical ventilation required attributed to <abbr title="Clostridium Difficile Associated Disease.">CDAD</abbr>]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[2]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance/>
+   </row>
+   <row>
+    <qid><![CDATA[74]]></qid>
+    <parent_qid><![CDATA[65]]></parent_qid>
+    <sid><![CDATA[21865943]]></sid>
+    <gid><![CDATA[6]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[A3]]></title>
+    <question><![CDATA[Disorientation, confusion, or decreased consciousness]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[3]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance/>
+   </row>
+   <row>
+    <qid><![CDATA[75]]></qid>
+    <parent_qid><![CDATA[62]]></parent_qid>
+    <sid><![CDATA[21865943]]></sid>
+    <gid><![CDATA[6]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[A3]]></title>
+    <question><![CDATA[Hypoalbuminemia (<3 g/dL)]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[8]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance/>
+   </row>
+   <row>
+    <qid><![CDATA[76]]></qid>
+    <parent_qid><![CDATA[62]]></parent_qid>
+    <sid><![CDATA[21865943]]></sid>
+    <gid><![CDATA[6]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[A4]]></title>
+    <question><![CDATA[Fever (>38.5-C)]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[11]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance/>
+   </row>
+   <row>
+    <qid><![CDATA[77]]></qid>
+    <parent_qid><![CDATA[62]]></parent_qid>
+    <sid><![CDATA[21865943]]></sid>
+    <gid><![CDATA[6]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[A5]]></title>
+    <question><![CDATA[ICU admission]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[12]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance/>
+   </row>
+   <row>
+    <qid><![CDATA[78]]></qid>
+    <parent_qid><![CDATA[63]]></parent_qid>
+    <sid><![CDATA[21865943]]></sid>
+    <gid><![CDATA[6]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[A2]]></title>
+    <question><![CDATA[WBC count >15,000 or <1.500 and/or band count >10%]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[2]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance/>
+   </row>
+   <row>
+    <qid><![CDATA[79]]></qid>
+    <parent_qid><![CDATA[63]]></parent_qid>
+    <sid><![CDATA[21865943]]></sid>
+    <gid><![CDATA[6]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[A3]]></title>
+    <question><![CDATA[Creatinine 1.5-fold >baseline]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[3]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance/>
+   </row>
+  </rows>
+ </subquestions>
+ <question_attributes>
+  <fields>
+   <fieldname>qid</fieldname>
+   <fieldname>attribute</fieldname>
+   <fieldname>value</fieldname>
+   <fieldname>language</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <qid><![CDATA[62]]></qid>
+    <attribute><![CDATA[array_filter]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[62]]></qid>
+    <attribute><![CDATA[array_filter_exclude]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[62]]></qid>
+    <attribute><![CDATA[array_filter_style]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[62]]></qid>
+    <attribute><![CDATA[assessment_value]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[62]]></qid>
+    <attribute><![CDATA[display_columns]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[62]]></qid>
+    <attribute><![CDATA[em_validation_q]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[62]]></qid>
+    <attribute><![CDATA[em_validation_q_tip]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[62]]></qid>
+    <attribute><![CDATA[exclude_all_others]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[62]]></qid>
+    <attribute><![CDATA[exclude_all_others_auto]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[62]]></qid>
+    <attribute><![CDATA[hidden]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[62]]></qid>
+    <attribute><![CDATA[hide_tip]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[62]]></qid>
+    <attribute><![CDATA[max_answers]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[62]]></qid>
+    <attribute><![CDATA[min_answers]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[62]]></qid>
+    <attribute><![CDATA[other_numbers_only]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[62]]></qid>
+    <attribute><![CDATA[other_replace_text]]></attribute>
+    <value/>
+    <language><![CDATA[en]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[62]]></qid>
+    <attribute><![CDATA[page_break]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[62]]></qid>
+    <attribute><![CDATA[public_statistics]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[62]]></qid>
+    <attribute><![CDATA[random_group]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[62]]></qid>
+    <attribute><![CDATA[random_order]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[62]]></qid>
+    <attribute><![CDATA[scale_export]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[63]]></qid>
+    <attribute><![CDATA[array_filter]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[63]]></qid>
+    <attribute><![CDATA[array_filter_exclude]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[63]]></qid>
+    <attribute><![CDATA[array_filter_style]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[63]]></qid>
+    <attribute><![CDATA[assessment_value]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[63]]></qid>
+    <attribute><![CDATA[display_columns]]></attribute>
+    <value><![CDATA[ ]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[63]]></qid>
+    <attribute><![CDATA[em_validation_q]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[63]]></qid>
+    <attribute><![CDATA[em_validation_q_tip]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[63]]></qid>
+    <attribute><![CDATA[exclude_all_others]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[63]]></qid>
+    <attribute><![CDATA[exclude_all_others_auto]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[63]]></qid>
+    <attribute><![CDATA[hidden]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[63]]></qid>
+    <attribute><![CDATA[hide_tip]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[63]]></qid>
+    <attribute><![CDATA[max_answers]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[63]]></qid>
+    <attribute><![CDATA[min_answers]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[63]]></qid>
+    <attribute><![CDATA[other_numbers_only]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[63]]></qid>
+    <attribute><![CDATA[other_replace_text]]></attribute>
+    <value/>
+    <language><![CDATA[en]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[63]]></qid>
+    <attribute><![CDATA[page_break]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[63]]></qid>
+    <attribute><![CDATA[public_statistics]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[63]]></qid>
+    <attribute><![CDATA[random_group]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[63]]></qid>
+    <attribute><![CDATA[random_order]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[63]]></qid>
+    <attribute><![CDATA[scale_export]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[64]]></qid>
+    <attribute><![CDATA[array_filter]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[64]]></qid>
+    <attribute><![CDATA[array_filter_exclude]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[64]]></qid>
+    <attribute><![CDATA[array_filter_style]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[64]]></qid>
+    <attribute><![CDATA[assessment_value]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[64]]></qid>
+    <attribute><![CDATA[display_columns]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[64]]></qid>
+    <attribute><![CDATA[em_validation_q]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[64]]></qid>
+    <attribute><![CDATA[em_validation_q_tip]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[64]]></qid>
+    <attribute><![CDATA[exclude_all_others]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[64]]></qid>
+    <attribute><![CDATA[exclude_all_others_auto]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[64]]></qid>
+    <attribute><![CDATA[hidden]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[64]]></qid>
+    <attribute><![CDATA[hide_tip]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[64]]></qid>
+    <attribute><![CDATA[max_answers]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[64]]></qid>
+    <attribute><![CDATA[min_answers]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[64]]></qid>
+    <attribute><![CDATA[other_numbers_only]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[64]]></qid>
+    <attribute><![CDATA[other_replace_text]]></attribute>
+    <value/>
+    <language><![CDATA[en]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[64]]></qid>
+    <attribute><![CDATA[page_break]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[64]]></qid>
+    <attribute><![CDATA[public_statistics]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[64]]></qid>
+    <attribute><![CDATA[random_group]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[64]]></qid>
+    <attribute><![CDATA[random_order]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[64]]></qid>
+    <attribute><![CDATA[scale_export]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[65]]></qid>
+    <attribute><![CDATA[array_filter]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[65]]></qid>
+    <attribute><![CDATA[array_filter_exclude]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[65]]></qid>
+    <attribute><![CDATA[array_filter_style]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[65]]></qid>
+    <attribute><![CDATA[assessment_value]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[65]]></qid>
+    <attribute><![CDATA[display_columns]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[65]]></qid>
+    <attribute><![CDATA[em_validation_q]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[65]]></qid>
+    <attribute><![CDATA[em_validation_q_tip]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[65]]></qid>
+    <attribute><![CDATA[exclude_all_others]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[65]]></qid>
+    <attribute><![CDATA[exclude_all_others_auto]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[65]]></qid>
+    <attribute><![CDATA[hidden]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[65]]></qid>
+    <attribute><![CDATA[hide_tip]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[65]]></qid>
+    <attribute><![CDATA[max_answers]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[65]]></qid>
+    <attribute><![CDATA[min_answers]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[65]]></qid>
+    <attribute><![CDATA[other_numbers_only]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[65]]></qid>
+    <attribute><![CDATA[other_replace_text]]></attribute>
+    <value/>
+    <language><![CDATA[en]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[65]]></qid>
+    <attribute><![CDATA[page_break]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[65]]></qid>
+    <attribute><![CDATA[public_statistics]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[65]]></qid>
+    <attribute><![CDATA[random_group]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[65]]></qid>
+    <attribute><![CDATA[random_order]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[65]]></qid>
+    <attribute><![CDATA[scale_export]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[66]]></qid>
+    <attribute><![CDATA[hidden]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[66]]></qid>
+    <attribute><![CDATA[numbers_only]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[66]]></qid>
+    <attribute><![CDATA[page_break]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[66]]></qid>
+    <attribute><![CDATA[public_statistics]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[66]]></qid>
+    <attribute><![CDATA[scale_export]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[67]]></qid>
+    <attribute><![CDATA[hidden]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[67]]></qid>
+    <attribute><![CDATA[numbers_only]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[67]]></qid>
+    <attribute><![CDATA[page_break]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[67]]></qid>
+    <attribute><![CDATA[public_statistics]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[67]]></qid>
+    <attribute><![CDATA[scale_export]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+  </rows>
+ </question_attributes>
+ <surveys>
+  <fields>
+   <fieldname>sid</fieldname>
+   <fieldname>admin</fieldname>
+   <fieldname>expires</fieldname>
+   <fieldname>startdate</fieldname>
+   <fieldname>adminemail</fieldname>
+   <fieldname>anonymized</fieldname>
+   <fieldname>faxto</fieldname>
+   <fieldname>format</fieldname>
+   <fieldname>savetimings</fieldname>
+   <fieldname>template</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>additional_languages</fieldname>
+   <fieldname>datestamp</fieldname>
+   <fieldname>usecookie</fieldname>
+   <fieldname>allowregister</fieldname>
+   <fieldname>allowsave</fieldname>
+   <fieldname>autonumber_start</fieldname>
+   <fieldname>autoredirect</fieldname>
+   <fieldname>allowprev</fieldname>
+   <fieldname>printanswers</fieldname>
+   <fieldname>ipaddr</fieldname>
+   <fieldname>refurl</fieldname>
+   <fieldname>publicstatistics</fieldname>
+   <fieldname>publicgraphs</fieldname>
+   <fieldname>listpublic</fieldname>
+   <fieldname>htmlemail</fieldname>
+   <fieldname>sendconfirmation</fieldname>
+   <fieldname>tokenanswerspersistence</fieldname>
+   <fieldname>assessments</fieldname>
+   <fieldname>usecaptcha</fieldname>
+   <fieldname>usetokens</fieldname>
+   <fieldname>bounce_email</fieldname>
+   <fieldname>attributedescriptions</fieldname>
+   <fieldname>emailresponseto</fieldname>
+   <fieldname>emailnotificationto</fieldname>
+   <fieldname>tokenlength</fieldname>
+   <fieldname>showxquestions</fieldname>
+   <fieldname>showgroupinfo</fieldname>
+   <fieldname>shownoanswer</fieldname>
+   <fieldname>showqnumcode</fieldname>
+   <fieldname>bouncetime</fieldname>
+   <fieldname>bounceprocessing</fieldname>
+   <fieldname>bounceaccounttype</fieldname>
+   <fieldname>bounceaccounthost</fieldname>
+   <fieldname>bounceaccountpass</fieldname>
+   <fieldname>bounceaccountencryption</fieldname>
+   <fieldname>bounceaccountuser</fieldname>
+   <fieldname>showwelcome</fieldname>
+   <fieldname>showprogress</fieldname>
+   <fieldname>questionindex</fieldname>
+   <fieldname>navigationdelay</fieldname>
+   <fieldname>nokeyboard</fieldname>
+   <fieldname>alloweditaftercompletion</fieldname>
+   <fieldname>googleanalyticsstyle</fieldname>
+   <fieldname>googleanalyticsapikey</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <sid><![CDATA[21865943]]></sid>
+    <admin/>
+    <adminemail/>
+    <anonymized><![CDATA[Y]]></anonymized>
+    <faxto/>
+    <format><![CDATA[G]]></format>
+    <savetimings><![CDATA[N]]></savetimings>
+    <template><![CDATA[default]]></template>
+    <language><![CDATA[en]]></language>
+    <additional_languages/>
+    <datestamp><![CDATA[Y]]></datestamp>
+    <usecookie><![CDATA[N]]></usecookie>
+    <allowregister><![CDATA[N]]></allowregister>
+    <allowsave><![CDATA[N]]></allowsave>
+    <autonumber_start><![CDATA[9]]></autonumber_start>
+    <autoredirect><![CDATA[N]]></autoredirect>
+    <allowprev><![CDATA[N]]></allowprev>
+    <printanswers><![CDATA[Y]]></printanswers>
+    <ipaddr><![CDATA[N]]></ipaddr>
+    <refurl><![CDATA[N]]></refurl>
+    <publicstatistics><![CDATA[N]]></publicstatistics>
+    <publicgraphs><![CDATA[N]]></publicgraphs>
+    <listpublic><![CDATA[N]]></listpublic>
+    <htmlemail><![CDATA[Y]]></htmlemail>
+    <sendconfirmation><![CDATA[Y]]></sendconfirmation>
+    <tokenanswerspersistence><![CDATA[N]]></tokenanswerspersistence>
+    <assessments><![CDATA[Y]]></assessments>
+    <usecaptcha><![CDATA[N]]></usecaptcha>
+    <usetokens><![CDATA[N]]></usetokens>
+    <bounce_email/>
+    <attributedescriptions/>
+    <emailresponseto/>
+    <emailnotificationto/>
+    <tokenlength><![CDATA[15]]></tokenlength>
+    <showxquestions><![CDATA[N]]></showxquestions>
+    <showgroupinfo><![CDATA[N]]></showgroupinfo>
+    <shownoanswer><![CDATA[Y]]></shownoanswer>
+    <showqnumcode><![CDATA[X]]></showqnumcode>
+    <bouncetime><![CDATA[0]]></bouncetime>
+    <bounceprocessing><![CDATA[N]]></bounceprocessing>
+    <bounceaccounttype/>
+    <bounceaccounthost/>
+    <bounceaccountpass/>
+    <bounceaccountencryption/>
+    <bounceaccountuser/>
+    <showwelcome><![CDATA[N]]></showwelcome>
+    <showprogress><![CDATA[N]]></showprogress>
+    <questionindex><![CDATA[0]]></questionindex>
+    <navigationdelay><![CDATA[0]]></navigationdelay>
+    <nokeyboard><![CDATA[N]]></nokeyboard>
+    <alloweditaftercompletion><![CDATA[N]]></alloweditaftercompletion>
+    <googleanalyticsstyle><![CDATA[0]]></googleanalyticsstyle>
+    <googleanalyticsapikey/>
+   </row>
+  </rows>
+ </surveys>
+ <surveys_languagesettings>
+  <fields>
+   <fieldname>surveyls_survey_id</fieldname>
+   <fieldname>surveyls_language</fieldname>
+   <fieldname>surveyls_title</fieldname>
+   <fieldname>surveyls_description</fieldname>
+   <fieldname>surveyls_welcometext</fieldname>
+   <fieldname>surveyls_endtext</fieldname>
+   <fieldname>surveyls_url</fieldname>
+   <fieldname>surveyls_urldescription</fieldname>
+   <fieldname>surveyls_email_invite_subj</fieldname>
+   <fieldname>surveyls_email_invite</fieldname>
+   <fieldname>surveyls_email_remind_subj</fieldname>
+   <fieldname>surveyls_email_remind</fieldname>
+   <fieldname>surveyls_email_register_subj</fieldname>
+   <fieldname>surveyls_email_register</fieldname>
+   <fieldname>surveyls_email_confirm_subj</fieldname>
+   <fieldname>surveyls_email_confirm</fieldname>
+   <fieldname>surveyls_dateformat</fieldname>
+   <fieldname>surveyls_attributecaptions</fieldname>
+   <fieldname>email_admin_notification_subj</fieldname>
+   <fieldname>email_admin_notification</fieldname>
+   <fieldname>email_admin_responses_subj</fieldname>
+   <fieldname>email_admin_responses</fieldname>
+   <fieldname>surveyls_numberformat</fieldname>
+   <fieldname>attachments</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <surveyls_survey_id><![CDATA[21865943]]></surveyls_survey_id>
+    <surveyls_language><![CDATA[en]]></surveyls_language>
+    <surveyls_title><![CDATA[Clostridium Difficile Associated Disease Severity Score <q>Neal et al. 2011</q>]]></surveyls_title>
+    <surveyls_description><![CDATA[Neal MD, Alverdy JC, Hall DE, Simmons RL, Zuckerbraun BS. Diverting loop ileostomy and colonic lavage: an alternative to total abdominal colectomy for the treatment of severe, complicated Clostridium difficile associated disease. Ann Surg. 2011;254(3):423-7. <a class="external" href="http://www.ncbi.nlm.nih.gov/pubmed/21865943" target="pubmed">PMID: 21865943</a> ]]></surveyls_description>
+    <surveyls_welcometext/>
+    <surveyls_endtext><![CDATA[<script>
+
+var ACT = '{Qscore}';
+
+if(ACT <= 3) { document.write('<style>.r0{ color:#fff;font-weight:bold;background:lightsteelblue}</style>')};
+
+if((ACT >= 4)&&(ACT <= 6)) { document.write('<style>.r1{ color:#fff;background:coral}</style>')};
+
+if(ACT >= 7) { document.write('<style>.r2{ color:#fff;background:crimson}</style>')};
+
+</script><center>
+<table class="noprint" id="assess_tbl">
+	<tbody>
+		<tr class="head">
+			<td>
+				Score Range</td>
+			<td>
+				Interpretation</td>
+		</tr>
+		<tr class="r0">
+			<td>
+				≤3</td>
+			<td>
+				Mild to moderate disease</td>
+		</tr>
+		<tr class="r1">
+			<td>
+				4-6</td>
+			<td>
+				Severe disease</td>
+		</tr>
+		<tr class="r2">
+			<td>
+				≥7</td>
+			<td>
+				Severe/Complicated disease</td>
+		</tr>
+	</tbody>
+</table></center>
+]]></surveyls_endtext>
+    <surveyls_url/>
+    <surveyls_urldescription><![CDATA[AIMS65]]></surveyls_urldescription>
+    <surveyls_email_invite_subj><![CDATA[Invitation to participate in survey]]></surveyls_email_invite_subj>
+    <surveyls_email_invite><![CDATA[You have been invited to participate in a survey.<br /><br />Title:<br />"{SURVEYNAME}"<br /><br />"{SURVEYDESCRIPTION}"<br />----------------------------------------------<br />Click here to do the survey:<br />{SURVEYURL}]]></surveyls_email_invite>
+    <surveyls_email_remind_subj><![CDATA[Reminder to participate in survey]]></surveyls_email_remind_subj>
+    <surveyls_email_remind><![CDATA[Dear {FIRSTNAME},<br /><br />Recently we invited you to participate in a survey.Title:<br />"{SURVEYNAME}"<br /><br />"{SURVEYDESCRIPTION}"<br />----------------------------------------------<br />Click here to do the survey:<br />{SURVEYURL}]]></surveyls_email_remind>
+    <surveyls_email_register_subj><![CDATA[Survey registration confirmation]]></surveyls_email_register_subj>
+    <surveyls_email_register><![CDATA[You, or someone using your email address, have registered to participate in an online survey titled {SURVEYNAME}.<br /><br />To complete this survey, click on the following URL:<br /><br />{SURVEYURL}<br /><br />If you have any questions about this survey, or if you did not register to participate and believe this email is in error, please contact {ADMINNAME} at {ADMINEMAIL}.]]></surveyls_email_register>
+    <surveyls_email_confirm_subj><![CDATA[Confirmation of completed survey]]></surveyls_email_confirm_subj>
+    <surveyls_email_confirm><![CDATA[Dear {FIRSTNAME},<br /><br />This email is to confirm that you have completed the survey titled {SURVEYNAME} and your response has been saved. Thank you for participating.<br /><br />If you have any further questions about this email, please contact {ADMINNAME} at {ADMINEMAIL}.<br /><br />Sincerely,<br /><br />{ADMINNAME}]]></surveyls_email_confirm>
+    <surveyls_dateformat><![CDATA[1]]></surveyls_dateformat>
+    <email_admin_notification_subj><![CDATA[Response submission for survey {SURVEYNAME}]]></email_admin_notification_subj>
+    <email_admin_notification><![CDATA[Hello,<br />
+<br />
+A new response was submitted for your survey '{SURVEYNAME}'.<br />
+<br />
+Click the following link to reload the survey:<br />
+{RELOADURL}<br />
+<br />
+Click the following link to see the individual response:<br />
+{VIEWRESPONSEURL}<br />
+<br />
+Click the following link to edit the individual response:<br />
+{EDITRESPONSEURL}<br />
+<br />
+View statistics by clicking here:<br />
+{STATISTICSURL}]]></email_admin_notification>
+    <email_admin_responses_subj><![CDATA[Response submission for survey {SURVEYNAME} with results]]></email_admin_responses_subj>
+    <email_admin_responses><![CDATA[Hello,<br />
+<br />
+A new response was submitted for your survey '{SURVEYNAME}'.<br />
+<br />
+Click the following link to reload the survey:<br />
+{RELOADURL}<br />
+<br />
+Click the following link to see the individual response:<br />
+{VIEWRESPONSEURL}<br />
+<br />
+Click the following link to edit the individual response:<br />
+{EDITRESPONSEURL}<br />
+<br />
+View statistics by clicking here:<br />
+{STATISTICSURL}<br />
+<br />
+<br />
+The following answers were given by the participant:<br />
+{ANSWERTABLE}]]></email_admin_responses>
+    <surveyls_numberformat><![CDATA[0]]></surveyls_numberformat>
+   </row>
+  </rows>
+ </surveys_languagesettings>
+</document>

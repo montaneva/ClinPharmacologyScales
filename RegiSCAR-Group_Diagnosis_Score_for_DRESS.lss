@@ -1,0 +1,2013 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * @Tool		RegiSCAR-Group Diagnosis Score for DRESS for LimeSurvey
+ * @Copyright	Copyright 2020 MONTANÉ Eva 
+ * @License		MIT http://mit-license.org
+-->
+<document>
+ <LimeSurveyDocType>Survey</LimeSurveyDocType>
+ <DBVersion>184</DBVersion>
+ <languages>
+  <language>en</language>
+ </languages>
+ <answers>
+  <fields>
+   <fieldname>qid</fieldname>
+   <fieldname>code</fieldname>
+   <fieldname>answer</fieldname>
+   <fieldname>sortorder</fieldname>
+   <fieldname>assessment_value</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>scale_id</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <qid><![CDATA[80]]></qid>
+    <code><![CDATA[N]]></code>
+    <answer><![CDATA[No ]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[-1]]></assessment_value>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[80]]></qid>
+    <code><![CDATA[NA]]></code>
+    <answer><![CDATA[Unknown ]]></answer>
+    <sortorder><![CDATA[3]]></sortorder>
+    <assessment_value><![CDATA[-1]]></assessment_value>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[80]]></qid>
+    <code><![CDATA[Y]]></code>
+    <answer><![CDATA[Yes ]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[81]]></qid>
+    <code><![CDATA[N]]></code>
+    <answer><![CDATA[No ]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[81]]></qid>
+    <code><![CDATA[NA]]></code>
+    <answer><![CDATA[Unknown ]]></answer>
+    <sortorder><![CDATA[3]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[81]]></qid>
+    <code><![CDATA[Y]]></code>
+    <answer><![CDATA[Yes ]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[1]]></assessment_value>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[82]]></qid>
+    <code><![CDATA[N]]></code>
+    <answer><![CDATA[No ]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[82]]></qid>
+    <code><![CDATA[NA]]></code>
+    <answer><![CDATA[Unknown ]]></answer>
+    <sortorder><![CDATA[3]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[82]]></qid>
+    <code><![CDATA[Y]]></code>
+    <answer><![CDATA[Yes ]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[1]]></assessment_value>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[83]]></qid>
+    <code><![CDATA[A1]]></code>
+    <answer><![CDATA[700-1499 or 10-19.9% ]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[1]]></assessment_value>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[83]]></qid>
+    <code><![CDATA[A2]]></code>
+    <answer><![CDATA[≥1500 or ≥20% ]]></answer>
+    <sortorder><![CDATA[3]]></sortorder>
+    <assessment_value><![CDATA[2]]></assessment_value>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[83]]></qid>
+    <code><![CDATA[N]]></code>
+    <answer><![CDATA[No ]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[84]]></qid>
+    <code><![CDATA[N]]></code>
+    <answer><![CDATA[No]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[84]]></qid>
+    <code><![CDATA[Y]]></code>
+    <answer><![CDATA[Yes]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[85]]></qid>
+    <code><![CDATA[N]]></code>
+    <answer><![CDATA[No ]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[85]]></qid>
+    <code><![CDATA[NA]]></code>
+    <answer><![CDATA[Unknown ]]></answer>
+    <sortorder><![CDATA[3]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[85]]></qid>
+    <code><![CDATA[Y]]></code>
+    <answer><![CDATA[Yes ]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[1]]></assessment_value>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[86]]></qid>
+    <code><![CDATA[N]]></code>
+    <answer><![CDATA[No ]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[-1]]></assessment_value>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[86]]></qid>
+    <code><![CDATA[NA]]></code>
+    <answer><![CDATA[Unknown ]]></answer>
+    <sortorder><![CDATA[3]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[86]]></qid>
+    <code><![CDATA[Y]]></code>
+    <answer><![CDATA[Yes ]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[1]]></assessment_value>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[87]]></qid>
+    <code><![CDATA[N]]></code>
+    <answer><![CDATA[No ]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[-1]]></assessment_value>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[87]]></qid>
+    <code><![CDATA[NA]]></code>
+    <answer><![CDATA[Unknown ]]></answer>
+    <sortorder><![CDATA[3]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[87]]></qid>
+    <code><![CDATA[Y]]></code>
+    <answer><![CDATA[Yes ]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[88]]></qid>
+    <code><![CDATA[A1]]></code>
+    <answer><![CDATA[1 organ ]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[1]]></assessment_value>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[88]]></qid>
+    <code><![CDATA[A2]]></code>
+    <answer><![CDATA[≥2 organs ]]></answer>
+    <sortorder><![CDATA[3]]></sortorder>
+    <assessment_value><![CDATA[2]]></assessment_value>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[88]]></qid>
+    <code><![CDATA[N]]></code>
+    <answer><![CDATA[No ]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[88]]></qid>
+    <code><![CDATA[NA]]></code>
+    <answer><![CDATA[Unknown ]]></answer>
+    <sortorder><![CDATA[4]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[89]]></qid>
+    <code><![CDATA[A2]]></code>
+    <answer><![CDATA[>15 days ]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[89]]></qid>
+    <code><![CDATA[A3]]></code>
+    <answer><![CDATA[Unknown ]]></answer>
+    <sortorder><![CDATA[3]]></sortorder>
+    <assessment_value><![CDATA[-1]]></assessment_value>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[89]]></qid>
+    <code><![CDATA[N]]></code>
+    <answer><![CDATA[≤15 days ]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[-1]]></assessment_value>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[90]]></qid>
+    <code><![CDATA[N]]></code>
+    <answer><![CDATA[No]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[90]]></qid>
+    <code><![CDATA[NA]]></code>
+    <answer><![CDATA[Unknown ]]></answer>
+    <sortorder><![CDATA[3]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[90]]></qid>
+    <code><![CDATA[Y]]></code>
+    <answer><![CDATA[Yes ]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[1]]></assessment_value>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+  </rows>
+ </answers>
+ <assessments>
+  <fields>
+   <fieldname>id</fieldname>
+   <fieldname>sid</fieldname>
+   <fieldname>scope</fieldname>
+   <fieldname>gid</fieldname>
+   <fieldname>name</fieldname>
+   <fieldname>minimum</fieldname>
+   <fieldname>maximum</fieldname>
+   <fieldname>message</fieldname>
+   <fieldname>language</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <id><![CDATA[7]]></id>
+    <sid><![CDATA[7794310]]></sid>
+    <scope><![CDATA[T]]></scope>
+    <gid><![CDATA[7]]></gid>
+    <name/>
+    <minimum><![CDATA[-10]]></minimum>
+    <maximum><![CDATA[30]]></maximum>
+    <message><![CDATA[<script type="text/javascript">
+
+	$(function(){
+
+		$( "<style type='text/css' media='print, screen and (min-width:481px)'>"
+
+		+".resulttbl { width:660px  !important}"
+
+		+"#resulttbl1 td:nth-child(2){ width:180px  !important}"
+
+		+"</style>").appendTo( "head" );
+
+
+
+	// hide rash related	
+
+	    var skinrash = '{Q5.shown}';
+
+ 		if (skinrash == 'No') {
+
+		$('.trhide').hide();
+
+		}  
+
+	});
+
+</script>
+<center>
+	<table class="resulttbl" id="resulttbl1">
+		<tbody>
+			<tr>
+				<td>
+					{Q1.question}</td>
+				<td>
+					: {Q1.shown} <span class="pts"> [{Q1.value}]</span></td>
+			</tr>
+			<tr>
+				<td>
+					{Q2.question}</td>
+				<td>
+					: {Q2.shown} <span class="pts"> [{Q2.value}]</span></td>
+			</tr>
+			<tr>
+				<td>
+					{Q3.question}</td>
+				<td>
+					: {Q3.shown} <span class="pts"> [{Q3.value}]</span></td>
+			</tr>
+			<tr>
+				<td>
+					{Q4.question}</td>
+				<td>
+					: {Q4.shown} <span class="pts"> [{Q4.value}]</span></td>
+			</tr>
+			<tr>
+				<td>
+					{Q5.question}</td>
+				<td>
+					: {Q5.shown} <span class="pts"> [{Q5.value}]</span></td>
+			</tr>
+			<tr class="trhide">
+				<td>
+					{q5a.question}</td>
+				<td>
+					: {q5a.shown} <span class="pts"> [{q5a.value}]</span></td>
+			</tr>
+			<tr class="trhide">
+				<td>
+					{q5b.question}</td>
+				<td>
+					: {q5b.shown} <span class="pts"> [{q5b.value}]</span></td>
+			</tr>
+			<tr class="trhide">
+				<td>
+					{q5c.question}</td>
+				<td>
+					: {q5c.shown} <span class="pts"> [{q5c.value}]</span></td>
+			</tr>
+			<tr>
+				<td>
+					{Q6.question}</td>
+				<td>
+					: {Q6.shown} <span class="pts"> [{Q6.value}]</span></td>
+			</tr>
+			<tr>
+				<td>
+					{Q7.question}</td>
+				<td>
+					: {Q7.shown} <span class="pts"> [{Q7.value}]</span></td>
+			</tr>
+			<tr>
+				<td>
+					{Q8.question}</td>
+				<td>
+					: {Q8.shown} <span class="pts"> [{Q8.value}]</span></td>
+			</tr>
+		</tbody>
+	</table>
+	<table class="resulttbl" id="resulttbl2">
+		<tbody>
+			<tr>
+				<td colspan="2">
+					<center>
+						Score: {ASSESSMENT_CURRENT_TOTAL}</center>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<center>
+						{Qassess}</center>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</center>
+]]></message>
+    <language><![CDATA[en]]></language>
+   </row>
+  </rows>
+ </assessments>
+ <conditions>
+  <fields>
+   <fieldname>cid</fieldname>
+   <fieldname>qid</fieldname>
+   <fieldname>cqid</fieldname>
+   <fieldname>cfieldname</fieldname>
+   <fieldname>method</fieldname>
+   <fieldname>value</fieldname>
+   <fieldname>scenario</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <cid><![CDATA[3]]></cid>
+    <qid><![CDATA[85]]></qid>
+    <cqid><![CDATA[84]]></cqid>
+    <cfieldname><![CDATA[7794310X7X84]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[Y]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[4]]></cid>
+    <qid><![CDATA[86]]></qid>
+    <cqid><![CDATA[84]]></cqid>
+    <cfieldname><![CDATA[7794310X7X84]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[Y]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+   <row>
+    <cid><![CDATA[5]]></cid>
+    <qid><![CDATA[87]]></qid>
+    <cqid><![CDATA[84]]></cqid>
+    <cfieldname><![CDATA[7794310X7X84]]></cfieldname>
+    <method><![CDATA[==]]></method>
+    <value><![CDATA[Y]]></value>
+    <scenario><![CDATA[1]]></scenario>
+   </row>
+  </rows>
+ </conditions>
+ <groups>
+  <fields>
+   <fieldname>gid</fieldname>
+   <fieldname>sid</fieldname>
+   <fieldname>group_name</fieldname>
+   <fieldname>group_order</fieldname>
+   <fieldname>description</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>randomization_group</fieldname>
+   <fieldname>grelevance</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <gid><![CDATA[7]]></gid>
+    <sid><![CDATA[7794310]]></sid>
+    <group_name><![CDATA[RegiSCAR-Group Diagnosis Score for DRESS]]></group_name>
+    <group_order><![CDATA[0]]></group_order>
+    <description><![CDATA[ ]]></description>
+    <language><![CDATA[en]]></language>
+    <randomization_group/>
+    <grelevance/>
+   </row>
+  </rows>
+ </groups>
+ <questions>
+  <fields>
+   <fieldname>qid</fieldname>
+   <fieldname>parent_qid</fieldname>
+   <fieldname>sid</fieldname>
+   <fieldname>gid</fieldname>
+   <fieldname>type</fieldname>
+   <fieldname>title</fieldname>
+   <fieldname>question</fieldname>
+   <fieldname>preg</fieldname>
+   <fieldname>help</fieldname>
+   <fieldname>other</fieldname>
+   <fieldname>mandatory</fieldname>
+   <fieldname>question_order</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>scale_id</fieldname>
+   <fieldname>same_default</fieldname>
+   <fieldname>relevance</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <qid><![CDATA[80]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[7794310]]></sid>
+    <gid><![CDATA[7]]></gid>
+    <type><![CDATA[L]]></type>
+    <title><![CDATA[Q1]]></title>
+    <question><![CDATA[Fever ( ≥38,5ºC )]]></question>
+    <preg/>
+    <help><![CDATA[<span class="value">
+
+{if((!is_empty(self.value)&&(self.value > 0)),'+','')}{self.value}
+
+</span>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[0]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance/>
+   </row>
+   <row>
+    <qid><![CDATA[81]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[7794310]]></sid>
+    <gid><![CDATA[7]]></gid>
+    <type><![CDATA[L]]></type>
+    <title><![CDATA[Q2]]></title>
+    <question><![CDATA[Enlarged lymph nodes ( ≥2 sites, ≥1cm )]]></question>
+    <preg/>
+    <help><![CDATA[<span class="value">
+
+{if((!is_empty(self.value)&&(self.value > 0)),'+','')}{self.value}
+
+</span>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance/>
+   </row>
+   <row>
+    <qid><![CDATA[82]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[7794310]]></sid>
+    <gid><![CDATA[7]]></gid>
+    <type><![CDATA[L]]></type>
+    <title><![CDATA[Q3]]></title>
+    <question><![CDATA[Atypical lymphocites]]></question>
+    <preg/>
+    <help><![CDATA[<span class="value">
+
+{if((!is_empty(self.value)&&(self.value > 0)),'+','')}{self.value}
+
+</span>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[2]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance/>
+   </row>
+   <row>
+    <qid><![CDATA[83]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[7794310]]></sid>
+    <gid><![CDATA[7]]></gid>
+    <type><![CDATA[L]]></type>
+    <title><![CDATA[Q4]]></title>
+    <question><![CDATA[Eosinophilia]]></question>
+    <preg/>
+    <help><![CDATA[<span class="value">
+
+{if((!is_empty(self.value)&&(self.value > 0)),'+','')}{self.value}
+
+</span>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[3]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance/>
+   </row>
+   <row>
+    <qid><![CDATA[84]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[7794310]]></sid>
+    <gid><![CDATA[7]]></gid>
+    <type><![CDATA[L]]></type>
+    <title><![CDATA[Q5]]></title>
+    <question><![CDATA[Skin rash]]></question>
+    <preg/>
+    <help><![CDATA[<span class="value">
+
+{if((!is_empty(self.value)&&(self.value > 0)),'+','')}{self.value}
+
+</span>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[4]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance/>
+   </row>
+   <row>
+    <qid><![CDATA[85]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[7794310]]></sid>
+    <gid><![CDATA[7]]></gid>
+    <type><![CDATA[L]]></type>
+    <title><![CDATA[q5a]]></title>
+    <question><![CDATA[<em>  - Extend >50%</em>]]></question>
+    <preg/>
+    <help><![CDATA[<span class="value">
+
+{if((!is_empty(self.value)&&(self.value > 0)),'+','')}{self.value}
+
+</span>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[5]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[((7794310X7X84.NAOK == "Y"))]]></relevance>
+   </row>
+   <row>
+    <qid><![CDATA[86]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[7794310]]></sid>
+    <gid><![CDATA[7]]></gid>
+    <type><![CDATA[L]]></type>
+    <title><![CDATA[q5b]]></title>
+    <question><![CDATA[<em>  - At least 2 of: edema, infiltration, purpura, scalling</em>]]></question>
+    <preg/>
+    <help><![CDATA[<span class="value">
+
+{if((!is_empty(self.value)&&(self.value > 0)),'+','')}{self.value}
+
+</span>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[6]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[((7794310X7X84.NAOK == "Y"))]]></relevance>
+   </row>
+   <row>
+    <qid><![CDATA[87]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[7794310]]></sid>
+    <gid><![CDATA[7]]></gid>
+    <type><![CDATA[L]]></type>
+    <title><![CDATA[q5c]]></title>
+    <question><![CDATA[<em>  - Biopsy suggesting DRESS</em>]]></question>
+    <preg/>
+    <help><![CDATA[<span class="value">
+
+{if((!is_empty(self.value)&&(self.value > 0)),'+','')}{self.value}
+
+</span>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[7]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[((7794310X7X84.NAOK == "Y"))]]></relevance>
+   </row>
+   <row>
+    <qid><![CDATA[88]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[7794310]]></sid>
+    <gid><![CDATA[7]]></gid>
+    <type><![CDATA[L]]></type>
+    <title><![CDATA[Q6]]></title>
+    <question><![CDATA[Internal organ involved]]></question>
+    <preg/>
+    <help><![CDATA[<span class="value">
+
+{if((!is_empty(self.value)&&(self.value > 0)),'+','')}{self.value}
+
+</span>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[8]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance/>
+   </row>
+   <row>
+    <qid><![CDATA[89]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[7794310]]></sid>
+    <gid><![CDATA[7]]></gid>
+    <type><![CDATA[L]]></type>
+    <title><![CDATA[Q7]]></title>
+    <question><![CDATA[Resolution delay]]></question>
+    <preg/>
+    <help><![CDATA[<span class="value">
+
+{if((!is_empty(self.value)&&(self.value > 0)),'+','')}{self.value}
+
+</span>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[9]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance/>
+   </row>
+   <row>
+    <qid><![CDATA[90]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[7794310]]></sid>
+    <gid><![CDATA[7]]></gid>
+    <type><![CDATA[L]]></type>
+    <title><![CDATA[Q8]]></title>
+    <question><![CDATA[≥ 3 biological investigations done and negative to exclude alternative diagnosis]]></question>
+    <preg/>
+    <help><![CDATA[<span class="value">
+
+{if((!is_empty(self.value)&&(self.value > 0)),'+','')}{self.value}
+
+</span>]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[10]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance/>
+   </row>
+   <row>
+    <qid><![CDATA[91]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[7794310]]></sid>
+    <gid><![CDATA[7]]></gid>
+    <type><![CDATA[*]]></type>
+    <title><![CDATA[Qscore]]></title>
+    <question><![CDATA[<span class="score_before">{sum(Q1.value, Q2.value, Q3.value, Q4.value, Q5.value, q5a.value, q5b.value, q5c.value, Q6.value, Q7.value, Q8.value)}</span>]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[11]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[(!is_empty(Q1))]]></relevance>
+   </row>
+   <row>
+    <qid><![CDATA[92]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[7794310]]></sid>
+    <gid><![CDATA[7]]></gid>
+    <type><![CDATA[*]]></type>
+    <title><![CDATA[Qassess]]></title>
+    <question><![CDATA[{if(Qscore < 2,'<font color=limegreen>NO DRESS</font> ', if(Qscore < 4, 'Possible DRESS', if(Qscore < 6, '<font color=coral>Probable DRESS</font>' ,'<font color=red>Definite DRESS</font>')))}
+
+<script type="text/javascript">
+
+$(function(){
+
+$("input").click(function(){
+
+$( "<style type='text/css'>"
+
++" .fs{QID} { display:block !important}"
+
++"</style>").appendTo( "head" );
+
+});});
+
+</script>]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[12]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[(!is_empty(Q1))]]></relevance>
+   </row>
+  </rows>
+ </questions>
+ <question_attributes>
+  <fields>
+   <fieldname>qid</fieldname>
+   <fieldname>attribute</fieldname>
+   <fieldname>value</fieldname>
+   <fieldname>language</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <qid><![CDATA[80]]></qid>
+    <attribute><![CDATA[alphasort]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[80]]></qid>
+    <attribute><![CDATA[array_filter]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[80]]></qid>
+    <attribute><![CDATA[array_filter_exclude]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[80]]></qid>
+    <attribute><![CDATA[array_filter_style]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[80]]></qid>
+    <attribute><![CDATA[display_columns]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[80]]></qid>
+    <attribute><![CDATA[hidden]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[80]]></qid>
+    <attribute><![CDATA[hide_tip]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[80]]></qid>
+    <attribute><![CDATA[other_comment_mandatory]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[80]]></qid>
+    <attribute><![CDATA[other_numbers_only]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[80]]></qid>
+    <attribute><![CDATA[other_replace_text]]></attribute>
+    <value/>
+    <language><![CDATA[en]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[80]]></qid>
+    <attribute><![CDATA[page_break]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[80]]></qid>
+    <attribute><![CDATA[public_statistics]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[80]]></qid>
+    <attribute><![CDATA[random_group]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[80]]></qid>
+    <attribute><![CDATA[random_order]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[80]]></qid>
+    <attribute><![CDATA[scale_export]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[81]]></qid>
+    <attribute><![CDATA[alphasort]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[81]]></qid>
+    <attribute><![CDATA[array_filter]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[81]]></qid>
+    <attribute><![CDATA[array_filter_exclude]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[81]]></qid>
+    <attribute><![CDATA[array_filter_style]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[81]]></qid>
+    <attribute><![CDATA[display_columns]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[81]]></qid>
+    <attribute><![CDATA[hidden]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[81]]></qid>
+    <attribute><![CDATA[hide_tip]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[81]]></qid>
+    <attribute><![CDATA[other_comment_mandatory]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[81]]></qid>
+    <attribute><![CDATA[other_numbers_only]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[81]]></qid>
+    <attribute><![CDATA[other_replace_text]]></attribute>
+    <value/>
+    <language><![CDATA[en]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[81]]></qid>
+    <attribute><![CDATA[page_break]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[81]]></qid>
+    <attribute><![CDATA[public_statistics]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[81]]></qid>
+    <attribute><![CDATA[random_group]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[81]]></qid>
+    <attribute><![CDATA[random_order]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[81]]></qid>
+    <attribute><![CDATA[scale_export]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[82]]></qid>
+    <attribute><![CDATA[alphasort]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[82]]></qid>
+    <attribute><![CDATA[array_filter]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[82]]></qid>
+    <attribute><![CDATA[array_filter_exclude]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[82]]></qid>
+    <attribute><![CDATA[array_filter_style]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[82]]></qid>
+    <attribute><![CDATA[display_columns]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[82]]></qid>
+    <attribute><![CDATA[hidden]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[82]]></qid>
+    <attribute><![CDATA[hide_tip]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[82]]></qid>
+    <attribute><![CDATA[other_comment_mandatory]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[82]]></qid>
+    <attribute><![CDATA[other_numbers_only]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[82]]></qid>
+    <attribute><![CDATA[other_replace_text]]></attribute>
+    <value/>
+    <language><![CDATA[en]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[82]]></qid>
+    <attribute><![CDATA[page_break]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[82]]></qid>
+    <attribute><![CDATA[public_statistics]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[82]]></qid>
+    <attribute><![CDATA[random_group]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[82]]></qid>
+    <attribute><![CDATA[random_order]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[82]]></qid>
+    <attribute><![CDATA[scale_export]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[83]]></qid>
+    <attribute><![CDATA[alphasort]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[83]]></qid>
+    <attribute><![CDATA[array_filter]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[83]]></qid>
+    <attribute><![CDATA[array_filter_exclude]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[83]]></qid>
+    <attribute><![CDATA[array_filter_style]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[83]]></qid>
+    <attribute><![CDATA[display_columns]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[83]]></qid>
+    <attribute><![CDATA[hidden]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[83]]></qid>
+    <attribute><![CDATA[hide_tip]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[83]]></qid>
+    <attribute><![CDATA[other_comment_mandatory]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[83]]></qid>
+    <attribute><![CDATA[other_numbers_only]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[83]]></qid>
+    <attribute><![CDATA[other_replace_text]]></attribute>
+    <value/>
+    <language><![CDATA[en]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[83]]></qid>
+    <attribute><![CDATA[page_break]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[83]]></qid>
+    <attribute><![CDATA[public_statistics]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[83]]></qid>
+    <attribute><![CDATA[random_group]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[83]]></qid>
+    <attribute><![CDATA[random_order]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[83]]></qid>
+    <attribute><![CDATA[scale_export]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[84]]></qid>
+    <attribute><![CDATA[alphasort]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[84]]></qid>
+    <attribute><![CDATA[array_filter]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[84]]></qid>
+    <attribute><![CDATA[array_filter_exclude]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[84]]></qid>
+    <attribute><![CDATA[array_filter_style]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[84]]></qid>
+    <attribute><![CDATA[display_columns]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[84]]></qid>
+    <attribute><![CDATA[hidden]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[84]]></qid>
+    <attribute><![CDATA[hide_tip]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[84]]></qid>
+    <attribute><![CDATA[other_comment_mandatory]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[84]]></qid>
+    <attribute><![CDATA[other_numbers_only]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[84]]></qid>
+    <attribute><![CDATA[other_replace_text]]></attribute>
+    <value/>
+    <language><![CDATA[en]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[84]]></qid>
+    <attribute><![CDATA[page_break]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[84]]></qid>
+    <attribute><![CDATA[public_statistics]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[84]]></qid>
+    <attribute><![CDATA[random_group]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[84]]></qid>
+    <attribute><![CDATA[random_order]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[84]]></qid>
+    <attribute><![CDATA[scale_export]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[85]]></qid>
+    <attribute><![CDATA[alphasort]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[85]]></qid>
+    <attribute><![CDATA[array_filter]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[85]]></qid>
+    <attribute><![CDATA[array_filter_exclude]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[85]]></qid>
+    <attribute><![CDATA[array_filter_style]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[85]]></qid>
+    <attribute><![CDATA[display_columns]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[85]]></qid>
+    <attribute><![CDATA[hidden]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[85]]></qid>
+    <attribute><![CDATA[hide_tip]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[85]]></qid>
+    <attribute><![CDATA[other_comment_mandatory]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[85]]></qid>
+    <attribute><![CDATA[other_numbers_only]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[85]]></qid>
+    <attribute><![CDATA[other_replace_text]]></attribute>
+    <value/>
+    <language><![CDATA[en]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[85]]></qid>
+    <attribute><![CDATA[page_break]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[85]]></qid>
+    <attribute><![CDATA[public_statistics]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[85]]></qid>
+    <attribute><![CDATA[random_group]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[85]]></qid>
+    <attribute><![CDATA[random_order]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[85]]></qid>
+    <attribute><![CDATA[scale_export]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[86]]></qid>
+    <attribute><![CDATA[alphasort]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[86]]></qid>
+    <attribute><![CDATA[array_filter]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[86]]></qid>
+    <attribute><![CDATA[array_filter_exclude]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[86]]></qid>
+    <attribute><![CDATA[array_filter_style]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[86]]></qid>
+    <attribute><![CDATA[display_columns]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[86]]></qid>
+    <attribute><![CDATA[hidden]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[86]]></qid>
+    <attribute><![CDATA[hide_tip]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[86]]></qid>
+    <attribute><![CDATA[other_comment_mandatory]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[86]]></qid>
+    <attribute><![CDATA[other_numbers_only]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[86]]></qid>
+    <attribute><![CDATA[other_replace_text]]></attribute>
+    <value/>
+    <language><![CDATA[en]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[86]]></qid>
+    <attribute><![CDATA[page_break]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[86]]></qid>
+    <attribute><![CDATA[public_statistics]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[86]]></qid>
+    <attribute><![CDATA[random_group]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[86]]></qid>
+    <attribute><![CDATA[random_order]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[86]]></qid>
+    <attribute><![CDATA[scale_export]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[87]]></qid>
+    <attribute><![CDATA[alphasort]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[87]]></qid>
+    <attribute><![CDATA[array_filter]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[87]]></qid>
+    <attribute><![CDATA[array_filter_exclude]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[87]]></qid>
+    <attribute><![CDATA[array_filter_style]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[87]]></qid>
+    <attribute><![CDATA[display_columns]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[87]]></qid>
+    <attribute><![CDATA[hidden]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[87]]></qid>
+    <attribute><![CDATA[hide_tip]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[87]]></qid>
+    <attribute><![CDATA[other_comment_mandatory]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[87]]></qid>
+    <attribute><![CDATA[other_numbers_only]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[87]]></qid>
+    <attribute><![CDATA[other_replace_text]]></attribute>
+    <value/>
+    <language><![CDATA[en]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[87]]></qid>
+    <attribute><![CDATA[page_break]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[87]]></qid>
+    <attribute><![CDATA[public_statistics]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[87]]></qid>
+    <attribute><![CDATA[random_group]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[87]]></qid>
+    <attribute><![CDATA[random_order]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[87]]></qid>
+    <attribute><![CDATA[scale_export]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[88]]></qid>
+    <attribute><![CDATA[alphasort]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[88]]></qid>
+    <attribute><![CDATA[array_filter]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[88]]></qid>
+    <attribute><![CDATA[array_filter_exclude]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[88]]></qid>
+    <attribute><![CDATA[array_filter_style]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[88]]></qid>
+    <attribute><![CDATA[display_columns]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[88]]></qid>
+    <attribute><![CDATA[hidden]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[88]]></qid>
+    <attribute><![CDATA[hide_tip]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[88]]></qid>
+    <attribute><![CDATA[other_comment_mandatory]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[88]]></qid>
+    <attribute><![CDATA[other_numbers_only]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[88]]></qid>
+    <attribute><![CDATA[other_replace_text]]></attribute>
+    <value/>
+    <language><![CDATA[en]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[88]]></qid>
+    <attribute><![CDATA[page_break]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[88]]></qid>
+    <attribute><![CDATA[public_statistics]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[88]]></qid>
+    <attribute><![CDATA[random_group]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[88]]></qid>
+    <attribute><![CDATA[random_order]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[88]]></qid>
+    <attribute><![CDATA[scale_export]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[89]]></qid>
+    <attribute><![CDATA[alphasort]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[89]]></qid>
+    <attribute><![CDATA[array_filter]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[89]]></qid>
+    <attribute><![CDATA[array_filter_exclude]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[89]]></qid>
+    <attribute><![CDATA[array_filter_style]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[89]]></qid>
+    <attribute><![CDATA[display_columns]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[89]]></qid>
+    <attribute><![CDATA[hidden]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[89]]></qid>
+    <attribute><![CDATA[hide_tip]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[89]]></qid>
+    <attribute><![CDATA[other_comment_mandatory]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[89]]></qid>
+    <attribute><![CDATA[other_numbers_only]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[89]]></qid>
+    <attribute><![CDATA[other_replace_text]]></attribute>
+    <value/>
+    <language><![CDATA[en]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[89]]></qid>
+    <attribute><![CDATA[page_break]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[89]]></qid>
+    <attribute><![CDATA[public_statistics]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[89]]></qid>
+    <attribute><![CDATA[random_group]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[89]]></qid>
+    <attribute><![CDATA[random_order]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[89]]></qid>
+    <attribute><![CDATA[scale_export]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[90]]></qid>
+    <attribute><![CDATA[alphasort]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[90]]></qid>
+    <attribute><![CDATA[array_filter]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[90]]></qid>
+    <attribute><![CDATA[array_filter_exclude]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[90]]></qid>
+    <attribute><![CDATA[array_filter_style]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[90]]></qid>
+    <attribute><![CDATA[display_columns]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[90]]></qid>
+    <attribute><![CDATA[hidden]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[90]]></qid>
+    <attribute><![CDATA[hide_tip]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[90]]></qid>
+    <attribute><![CDATA[other_comment_mandatory]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[90]]></qid>
+    <attribute><![CDATA[other_numbers_only]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[90]]></qid>
+    <attribute><![CDATA[other_replace_text]]></attribute>
+    <value/>
+    <language><![CDATA[en]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[90]]></qid>
+    <attribute><![CDATA[page_break]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[90]]></qid>
+    <attribute><![CDATA[public_statistics]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[90]]></qid>
+    <attribute><![CDATA[random_group]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[90]]></qid>
+    <attribute><![CDATA[random_order]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[90]]></qid>
+    <attribute><![CDATA[scale_export]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[91]]></qid>
+    <attribute><![CDATA[hidden]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[91]]></qid>
+    <attribute><![CDATA[numbers_only]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[91]]></qid>
+    <attribute><![CDATA[page_break]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[91]]></qid>
+    <attribute><![CDATA[public_statistics]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[91]]></qid>
+    <attribute><![CDATA[scale_export]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[92]]></qid>
+    <attribute><![CDATA[hidden]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[92]]></qid>
+    <attribute><![CDATA[numbers_only]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[92]]></qid>
+    <attribute><![CDATA[page_break]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[92]]></qid>
+    <attribute><![CDATA[public_statistics]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[92]]></qid>
+    <attribute><![CDATA[scale_export]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+  </rows>
+ </question_attributes>
+ <surveys>
+  <fields>
+   <fieldname>sid</fieldname>
+   <fieldname>admin</fieldname>
+   <fieldname>expires</fieldname>
+   <fieldname>startdate</fieldname>
+   <fieldname>adminemail</fieldname>
+   <fieldname>anonymized</fieldname>
+   <fieldname>faxto</fieldname>
+   <fieldname>format</fieldname>
+   <fieldname>savetimings</fieldname>
+   <fieldname>template</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>additional_languages</fieldname>
+   <fieldname>datestamp</fieldname>
+   <fieldname>usecookie</fieldname>
+   <fieldname>allowregister</fieldname>
+   <fieldname>allowsave</fieldname>
+   <fieldname>autonumber_start</fieldname>
+   <fieldname>autoredirect</fieldname>
+   <fieldname>allowprev</fieldname>
+   <fieldname>printanswers</fieldname>
+   <fieldname>ipaddr</fieldname>
+   <fieldname>refurl</fieldname>
+   <fieldname>publicstatistics</fieldname>
+   <fieldname>publicgraphs</fieldname>
+   <fieldname>listpublic</fieldname>
+   <fieldname>htmlemail</fieldname>
+   <fieldname>sendconfirmation</fieldname>
+   <fieldname>tokenanswerspersistence</fieldname>
+   <fieldname>assessments</fieldname>
+   <fieldname>usecaptcha</fieldname>
+   <fieldname>usetokens</fieldname>
+   <fieldname>bounce_email</fieldname>
+   <fieldname>attributedescriptions</fieldname>
+   <fieldname>emailresponseto</fieldname>
+   <fieldname>emailnotificationto</fieldname>
+   <fieldname>tokenlength</fieldname>
+   <fieldname>showxquestions</fieldname>
+   <fieldname>showgroupinfo</fieldname>
+   <fieldname>shownoanswer</fieldname>
+   <fieldname>showqnumcode</fieldname>
+   <fieldname>bouncetime</fieldname>
+   <fieldname>bounceprocessing</fieldname>
+   <fieldname>bounceaccounttype</fieldname>
+   <fieldname>bounceaccounthost</fieldname>
+   <fieldname>bounceaccountpass</fieldname>
+   <fieldname>bounceaccountencryption</fieldname>
+   <fieldname>bounceaccountuser</fieldname>
+   <fieldname>showwelcome</fieldname>
+   <fieldname>showprogress</fieldname>
+   <fieldname>questionindex</fieldname>
+   <fieldname>navigationdelay</fieldname>
+   <fieldname>nokeyboard</fieldname>
+   <fieldname>alloweditaftercompletion</fieldname>
+   <fieldname>googleanalyticsstyle</fieldname>
+   <fieldname>googleanalyticsapikey</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <sid><![CDATA[7794310]]></sid>
+    <admin><![CDATA[noindex, nofollow, ]]></admin>
+    <adminemail/>
+    <anonymized><![CDATA[Y]]></anonymized>
+    <faxto/>
+    <format><![CDATA[G]]></format>
+    <savetimings><![CDATA[N]]></savetimings>
+    <template><![CDATA[default]]></template>
+    <language><![CDATA[en]]></language>
+    <additional_languages/>
+    <datestamp><![CDATA[Y]]></datestamp>
+    <usecookie><![CDATA[N]]></usecookie>
+    <allowregister><![CDATA[N]]></allowregister>
+    <allowsave><![CDATA[N]]></allowsave>
+    <autonumber_start><![CDATA[7]]></autonumber_start>
+    <autoredirect><![CDATA[N]]></autoredirect>
+    <allowprev><![CDATA[N]]></allowprev>
+    <printanswers><![CDATA[Y]]></printanswers>
+    <ipaddr><![CDATA[Y]]></ipaddr>
+    <refurl><![CDATA[Y]]></refurl>
+    <publicstatistics><![CDATA[N]]></publicstatistics>
+    <publicgraphs><![CDATA[N]]></publicgraphs>
+    <listpublic><![CDATA[N]]></listpublic>
+    <htmlemail><![CDATA[Y]]></htmlemail>
+    <sendconfirmation><![CDATA[Y]]></sendconfirmation>
+    <tokenanswerspersistence><![CDATA[N]]></tokenanswerspersistence>
+    <assessments><![CDATA[Y]]></assessments>
+    <usecaptcha><![CDATA[N]]></usecaptcha>
+    <usetokens><![CDATA[N]]></usetokens>
+    <bounce_email/>
+    <attributedescriptions/>
+    <emailresponseto/>
+    <emailnotificationto/>
+    <tokenlength><![CDATA[15]]></tokenlength>
+    <showxquestions><![CDATA[N]]></showxquestions>
+    <showgroupinfo><![CDATA[N]]></showgroupinfo>
+    <shownoanswer><![CDATA[Y]]></shownoanswer>
+    <showqnumcode><![CDATA[X]]></showqnumcode>
+    <bouncetime><![CDATA[0]]></bouncetime>
+    <bounceprocessing><![CDATA[N]]></bounceprocessing>
+    <bounceaccounttype/>
+    <bounceaccounthost/>
+    <bounceaccountpass/>
+    <bounceaccountencryption/>
+    <bounceaccountuser/>
+    <showwelcome><![CDATA[N]]></showwelcome>
+    <showprogress><![CDATA[N]]></showprogress>
+    <questionindex><![CDATA[0]]></questionindex>
+    <navigationdelay><![CDATA[0]]></navigationdelay>
+    <nokeyboard><![CDATA[N]]></nokeyboard>
+    <alloweditaftercompletion><![CDATA[N]]></alloweditaftercompletion>
+    <googleanalyticsstyle><![CDATA[0]]></googleanalyticsstyle>
+    <googleanalyticsapikey/>
+   </row>
+  </rows>
+ </surveys>
+ <surveys_languagesettings>
+  <fields>
+   <fieldname>surveyls_survey_id</fieldname>
+   <fieldname>surveyls_language</fieldname>
+   <fieldname>surveyls_title</fieldname>
+   <fieldname>surveyls_description</fieldname>
+   <fieldname>surveyls_welcometext</fieldname>
+   <fieldname>surveyls_endtext</fieldname>
+   <fieldname>surveyls_url</fieldname>
+   <fieldname>surveyls_urldescription</fieldname>
+   <fieldname>surveyls_email_invite_subj</fieldname>
+   <fieldname>surveyls_email_invite</fieldname>
+   <fieldname>surveyls_email_remind_subj</fieldname>
+   <fieldname>surveyls_email_remind</fieldname>
+   <fieldname>surveyls_email_register_subj</fieldname>
+   <fieldname>surveyls_email_register</fieldname>
+   <fieldname>surveyls_email_confirm_subj</fieldname>
+   <fieldname>surveyls_email_confirm</fieldname>
+   <fieldname>surveyls_dateformat</fieldname>
+   <fieldname>surveyls_attributecaptions</fieldname>
+   <fieldname>email_admin_notification_subj</fieldname>
+   <fieldname>email_admin_notification</fieldname>
+   <fieldname>email_admin_responses_subj</fieldname>
+   <fieldname>email_admin_responses</fieldname>
+   <fieldname>surveyls_numberformat</fieldname>
+   <fieldname>attachments</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <surveyls_survey_id><![CDATA[7794310]]></surveyls_survey_id>
+    <surveyls_language><![CDATA[en]]></surveyls_language>
+    <surveyls_title><![CDATA[RegiSCAR-Group Diagnosis Score for DRESS <q>Roujeau et al. 2009</q>]]></surveyls_title>
+    <surveyls_description><![CDATA[Roujeau, J.C., Allanore, L., Liss, Y. et al. Severe Cutaneous Adverse Reactions to drugs (SCAR): definitions, diagnostic criteria, genetic predisposition. <a class="external" href="http://dermatol-sinica.com/web/data/20091130043801.pdf" target="pubmed">Dermatol Sinica. 2009; 27: 203-209.</a> <script type="text/javascript">
+
+$(function(){
+
+$( "<style type='text/css' media='screen and (min-width:481px)'>"
+
++ ".answers-wrapper li { display:inline;padding-right:20px !important; }"
+
++"</style>").appendTo( "head" );
+
+});
+
+</script>]]></surveyls_description>
+    <surveyls_welcometext/>
+    <surveyls_endtext><![CDATA[<script type="text/javascript">
+
+
+
+var ACT = '{ASSESSMENT_CURRENT_TOTAL}';
+
+
+
+if(ACT < 2) { document.write('<style>.r0{ color:#fff;font-weight:bold;background:limegreen}</style>')};
+
+
+
+if((ACT == 2)||(ACT == 3)) { document.write('<style>.r1{ color:#fff;background:lightsteelblue}</style>')};
+
+
+
+if((ACT == 4)||(ACT == 5)) { document.write('<style>.r2{ color:#fff;background:coral}</style>')};
+
+
+
+if(ACT >= 6) { document.write('<style>.r3{ color:#fff;background:crimson}</style>')};
+
+
+
+</script><center>
+<table class="noprint" id="assess_tbl">
+	<tbody>
+		<tr class="head">
+			<td>
+				Score</td>
+			<td>
+				DRESS</td>
+		</tr>
+		<tr class="r0">
+			<td>
+				<2</td>
+			<td>
+				None</td>
+		</tr>
+		<tr class="r1">
+			<td>
+				2-3</td>
+			<td>
+				Possible</td>
+		</tr>
+		<tr class="r2">
+			<td>
+				4-5</td>
+			<td>
+				Probable</td>
+		</tr>
+		<tr class="r3">
+			<td>
+				≥ 6</td>
+			<td>
+				Definite</td>
+		</tr>
+	</tbody>
+</table></center>
+]]></surveyls_endtext>
+    <surveyls_url/>
+    <surveyls_urldescription/>
+    <surveyls_email_invite_subj><![CDATA[Invitation to participate in survey]]></surveyls_email_invite_subj>
+    <surveyls_email_invite><![CDATA[You have been invited to participate in a survey.<br /><br />Title:<br />"{SURVEYNAME}"<br /><br />"{SURVEYDESCRIPTION}"<br />----------------------------------------------<br />Click here to do the survey:<br />{SURVEYURL}]]></surveyls_email_invite>
+    <surveyls_email_remind_subj><![CDATA[Reminder to participate in survey]]></surveyls_email_remind_subj>
+    <surveyls_email_remind><![CDATA[Dear {FIRSTNAME},<br /><br />Recently we invited you to participate in a survey.Title:<br />"{SURVEYNAME}"<br /><br />"{SURVEYDESCRIPTION}"<br />----------------------------------------------<br />Click here to do the survey:<br />{SURVEYURL}]]></surveyls_email_remind>
+    <surveyls_email_register_subj><![CDATA[Survey registration confirmation]]></surveyls_email_register_subj>
+    <surveyls_email_register><![CDATA[You, or someone using your email address, have registered to participate in an online survey titled {SURVEYNAME}.<br /><br />To complete this survey, click on the following URL:<br /><br />{SURVEYURL}<br /><br />If you have any questions about this survey, or if you did not register to participate and believe this email is in error, please contact {ADMINNAME} at {ADMINEMAIL}.]]></surveyls_email_register>
+    <surveyls_email_confirm_subj><![CDATA[Confirmation of completed survey]]></surveyls_email_confirm_subj>
+    <surveyls_email_confirm><![CDATA[Dear {FIRSTNAME},<br /><br />This email is to confirm that you have completed the survey titled {SURVEYNAME} and your response has been saved. Thank you for participating.<br /><br />If you have any further questions about this email, please contact {ADMINNAME} at {ADMINEMAIL}.<br /><br />Sincerely,<br /><br />{ADMINNAME}]]></surveyls_email_confirm>
+    <surveyls_dateformat><![CDATA[1]]></surveyls_dateformat>
+    <email_admin_notification_subj><![CDATA[Response submission for survey {SURVEYNAME}]]></email_admin_notification_subj>
+    <email_admin_notification><![CDATA[Hello,<br />
+<br />
+A new response was submitted for your survey '{SURVEYNAME}'.<br />
+<br />
+Click the following link to reload the survey:<br />
+{RELOADURL}<br />
+<br />
+Click the following link to see the individual response:<br />
+{VIEWRESPONSEURL}<br />
+<br />
+Click the following link to edit the individual response:<br />
+{EDITRESPONSEURL}<br />
+<br />
+View statistics by clicking here:<br />
+{STATISTICSURL}]]></email_admin_notification>
+    <email_admin_responses_subj><![CDATA[Response submission for survey {SURVEYNAME} with results]]></email_admin_responses_subj>
+    <email_admin_responses><![CDATA[Hello,<br />
+<br />
+A new response was submitted for your survey '{SURVEYNAME}'.<br />
+<br />
+Click the following link to reload the survey:<br />
+{RELOADURL}<br />
+<br />
+Click the following link to see the individual response:<br />
+{VIEWRESPONSEURL}<br />
+<br />
+Click the following link to edit the individual response:<br />
+{EDITRESPONSEURL}<br />
+<br />
+View statistics by clicking here:<br />
+{STATISTICSURL}<br />
+<br />
+<br />
+The following answers were given by the participant:<br />
+{ANSWERTABLE}]]></email_admin_responses>
+    <surveyls_numberformat><![CDATA[0]]></surveyls_numberformat>
+   </row>
+  </rows>
+ </surveys_languagesettings>
+</document>

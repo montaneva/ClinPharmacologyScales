@@ -1,0 +1,1268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * @Tool		SCORTEN for Toxic Epidermal Necrolysis for LimeSurvey
+ * @Copyright	Copyright 2020 MONTANÉ Eva 
+ * @License		MIT http://mit-license.org
+-->
+<document>
+ <LimeSurveyDocType>Survey</LimeSurveyDocType>
+ <DBVersion>184</DBVersion>
+ <languages>
+  <language>en</language>
+ </languages>
+ <answers>
+  <fields>
+   <fieldname>qid</fieldname>
+   <fieldname>code</fieldname>
+   <fieldname>answer</fieldname>
+   <fieldname>sortorder</fieldname>
+   <fieldname>assessment_value</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>scale_id</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <qid><![CDATA[165]]></qid>
+    <code><![CDATA[SI]]></code>
+    <answer><![CDATA[SI units]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[165]]></qid>
+    <code><![CDATA[US]]></code>
+    <answer><![CDATA[US units]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+  </rows>
+ </answers>
+ <assessments>
+  <fields>
+   <fieldname>id</fieldname>
+   <fieldname>sid</fieldname>
+   <fieldname>scope</fieldname>
+   <fieldname>gid</fieldname>
+   <fieldname>name</fieldname>
+   <fieldname>minimum</fieldname>
+   <fieldname>maximum</fieldname>
+   <fieldname>message</fieldname>
+   <fieldname>language</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <id><![CDATA[12]]></id>
+    <sid><![CDATA[10951229]]></sid>
+    <scope><![CDATA[T]]></scope>
+    <gid><![CDATA[17]]></gid>
+    <name><![CDATA[ ]]></name>
+    <minimum><![CDATA[0]]></minimum>
+    <maximum><![CDATA[7]]></maximum>
+    <message><![CDATA[<script units="text/javascript">
+	$(function(){
+		$( "<style units='text/css' media='print, screen and (min-width:481px)'>"
+		+".result_tbl { width:400px  !important}"
+		+"</style>").appendTo( "head" );
+	// piping	
+	    var units = '{Qunits.NAOK}';
+ 		if (units == 'US') { $('.si').hide(); }  
+		if (units == 'SI') { $('.us').hide(); }
+	});
+</script><center>
+<table class="result_tbl si" id="result_tbl1">
+	<tbody>
+		<tr>
+			<td>
+				{Q1a_A1.question} </td>
+			<td>
+				: {if (Q1a_A1.code == 'Y' , 'Yes' , '    - ')}</td>
+		</tr>
+		<tr>
+			<td>
+				{Q1a_A2.question} </td>
+			<td>
+				: {if (Q1a_A2.code == 'Y' , 'Yes' , '    - ')}</td>
+		</tr>
+		<tr>
+			<td>
+				{Q1a_A3.question} </td>
+			<td>
+				: {if (Q1a_A3.code == 'Y' , 'Yes' , '    - ')}</td>
+		</tr>
+		<tr>
+			<td>
+				{Q1a_A4.question} </td>
+			<td>
+				: {if (Q1a_A4.code == 'Y' , 'Yes' , '    - ')}</td>
+		</tr>
+		<tr>
+			<td>
+				{Q1a_A5.question} </td>
+			<td>
+				: {if (Q1a_A5.code == 'Y' , 'Yes' , '    - ')}</td>
+		</tr>
+		<tr>
+			<td>
+				{Q1a_A6.question} </td>
+			<td>
+				: {if (Q1a_A6.code == 'Y' , 'Yes' , '    - ')}</td>
+		</tr>
+		<tr>
+			<td>
+				{Q1a_A7.question} </td>
+			<td>
+				: {if (Q1a_A7.code == 'Y' , 'Yes' , '    - ')}</td>
+		</tr>
+	</tbody>
+</table>
+<table class="result_tbl us" id="result_tbl1">
+	<tbody>
+		<tr>
+			<td>
+				{Q1b_A1.question} </td>
+			<td>
+				: {if (Q1b_A1.code == 'Y' , 'Yes' , '    - ')}</td>
+		</tr>
+		<tr>
+			<td>
+				{Q1b_A2.question} </td>
+			<td>
+				: {if (Q1b_A2.code == 'Y' , 'Yes' , '    - ')}</td>
+		</tr>
+		<tr>
+			<td>
+				{Q1b_A3.question} </td>
+			<td>
+				: {if (Q1b_A3.code == 'Y' , 'Yes' , '    - ')}</td>
+		</tr>
+		<tr>
+			<td>
+				{Q1b_A4.question} </td>
+			<td>
+				: {if (Q1b_A4.code == 'Y' , 'Yes' , '    - ')}</td>
+		</tr>
+		<tr>
+			<td>
+				{Q1b_A5.question} </td>
+			<td>
+				: {if (Q1b_A5.code == 'Y' , 'Yes' , '    - ')}</td>
+		</tr>
+		<tr>
+			<td>
+				{Q1b_A6.question} </td>
+			<td>
+				: {if (Q1b_A6.code == 'Y' , 'Yes' , '    - ')}</td>
+		</tr>
+		<tr>
+			<td>
+				{Q1b_A7.question} </td>
+			<td>
+				: {if (Q1b_A7.code == 'Y' , 'Yes' , '    - ')}</td>
+		</tr>
+	</tbody>
+</table>
+<table class="result_tbl" id="result_tbl2">
+	<tbody>
+		<tr>
+			<td colspan="2">
+				<center>
+					SCORTEN: {Qscore}</center>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<center>
+					MORTALITY: {if(Qscore < 2,'3.2',if(Qscore == 2, '12.1',if(Qscore == 3, '35.3',if(Qscore == 4, '58.3' ,'90'))))}%</center>
+			</td>
+		</tr>
+	</tbody>
+</table></center>
+]]></message>
+    <language><![CDATA[en]]></language>
+   </row>
+  </rows>
+ </assessments>
+ <defaultvalues>
+  <fields>
+   <fieldname>qid</fieldname>
+   <fieldname>scale_id</fieldname>
+   <fieldname>sqid</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>specialtype</fieldname>
+   <fieldname>defaultvalue</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <qid><![CDATA[165]]></qid>
+    <scale_id><![CDATA[0]]></scale_id>
+    <sqid><![CDATA[0]]></sqid>
+    <language><![CDATA[en]]></language>
+    <specialtype/>
+    <defaultvalue><![CDATA[SI]]></defaultvalue>
+   </row>
+  </rows>
+ </defaultvalues>
+ <groups>
+  <fields>
+   <fieldname>gid</fieldname>
+   <fieldname>sid</fieldname>
+   <fieldname>group_name</fieldname>
+   <fieldname>group_order</fieldname>
+   <fieldname>description</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>randomization_group</fieldname>
+   <fieldname>grelevance</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <gid><![CDATA[17]]></gid>
+    <sid><![CDATA[10951229]]></sid>
+    <group_name><![CDATA[SCORTEN for Toxic Epidermal Necrolysis]]></group_name>
+    <group_order><![CDATA[0]]></group_order>
+    <description/>
+    <language><![CDATA[en]]></language>
+    <randomization_group/>
+    <grelevance/>
+   </row>
+  </rows>
+ </groups>
+ <questions>
+  <fields>
+   <fieldname>qid</fieldname>
+   <fieldname>parent_qid</fieldname>
+   <fieldname>sid</fieldname>
+   <fieldname>gid</fieldname>
+   <fieldname>type</fieldname>
+   <fieldname>title</fieldname>
+   <fieldname>question</fieldname>
+   <fieldname>preg</fieldname>
+   <fieldname>help</fieldname>
+   <fieldname>other</fieldname>
+   <fieldname>mandatory</fieldname>
+   <fieldname>question_order</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>scale_id</fieldname>
+   <fieldname>same_default</fieldname>
+   <fieldname>relevance</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <qid><![CDATA[165]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[10951229]]></sid>
+    <gid><![CDATA[17]]></gid>
+    <type><![CDATA[L]]></type>
+    <title><![CDATA[Qunits]]></title>
+    <question><![CDATA[<script type="text/javascript">
+
+$(function(){
+
+$( "<style type='text/css'>"
+
++ "#abstract { display:none}"
+
++ "#question{QID}{ border:none; background:#fcfcfc;font-size:85%;padding:0;margin:0 }"
+
++ "#question{QID} .question-help  { display:none }"
+
++ "#question{QID} li { display:inline;padding-right:20px !important; }"
+
++ ".qscore:before { content:'SCORTEN' }"
+
++"</style>").appendTo( "head" );
+
+});
+
+</script>]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[0]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance/>
+   </row>
+   <row>
+    <qid><![CDATA[166]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[10951229]]></sid>
+    <gid><![CDATA[17]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[Q1a]]></title>
+    <question/>
+    <preg/>
+    <help><![CDATA[ ]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[22]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[Qunits.NAOK == "SI"]]></relevance>
+   </row>
+   <row>
+    <qid><![CDATA[167]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[10951229]]></sid>
+    <gid><![CDATA[17]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[Q1b]]></title>
+    <question/>
+    <preg/>
+    <help><![CDATA[ ]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[23]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[Qunits.NAOK == "US"]]></relevance>
+   </row>
+   <row>
+    <qid><![CDATA[168]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[10951229]]></sid>
+    <gid><![CDATA[17]]></gid>
+    <type><![CDATA[*]]></type>
+    <title><![CDATA[Qscore]]></title>
+    <question><![CDATA[<p class="qscore"></p><big class="normal">{sum(count(that.Q1a.NAOK),count(that.Q1b.NAOK))}</big>]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[25]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+   </row>
+   <row>
+    <qid><![CDATA[169]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[10951229]]></sid>
+    <gid><![CDATA[17]]></gid>
+    <type><![CDATA[*]]></type>
+    <title><![CDATA[Qassess]]></title>
+    <question><![CDATA[<p class="qassess">MORTALITY RATE (%)</p><big class="normal">{if(Qscore < 2,'<font color=limegreen>3.2</font> ',
+
+if(Qscore == 2, '12.1',
+
+if(Qscore == 3, '<font color=coral>35.3</font>',
+
+if(Qscore == 4, '<font color=red>58.3</font>' ,'<font color=crimson>90</font>'
+
+))))}</big>
+
+<script type="text/javascript">
+
+    $(function() {
+
+            $("<style type='text/css'>"
+
+             + " .fs{QID} { display:block !important}"
+
+             + "</style>").appendTo("head");
+
+    });
+
+</script>]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[27]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+   </row>
+  </rows>
+ </questions>
+ <subquestions>
+  <fields>
+   <fieldname>qid</fieldname>
+   <fieldname>parent_qid</fieldname>
+   <fieldname>sid</fieldname>
+   <fieldname>gid</fieldname>
+   <fieldname>type</fieldname>
+   <fieldname>title</fieldname>
+   <fieldname>question</fieldname>
+   <fieldname>preg</fieldname>
+   <fieldname>help</fieldname>
+   <fieldname>other</fieldname>
+   <fieldname>mandatory</fieldname>
+   <fieldname>question_order</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>scale_id</fieldname>
+   <fieldname>same_default</fieldname>
+   <fieldname>relevance</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <qid><![CDATA[170]]></qid>
+    <parent_qid><![CDATA[166]]></parent_qid>
+    <sid><![CDATA[10951229]]></sid>
+    <gid><![CDATA[17]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[A1]]></title>
+    <question><![CDATA[Age ≥40 years]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[2]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance/>
+   </row>
+   <row>
+    <qid><![CDATA[171]]></qid>
+    <parent_qid><![CDATA[166]]></parent_qid>
+    <sid><![CDATA[10951229]]></sid>
+    <gid><![CDATA[17]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[A2]]></title>
+    <question><![CDATA[Heart rate ≥120 beats per min]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[5]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance/>
+   </row>
+   <row>
+    <qid><![CDATA[172]]></qid>
+    <parent_qid><![CDATA[166]]></parent_qid>
+    <sid><![CDATA[10951229]]></sid>
+    <gid><![CDATA[17]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[A3]]></title>
+    <question><![CDATA[Cancer/hematologic malignancy]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[9]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance/>
+   </row>
+   <row>
+    <qid><![CDATA[173]]></qid>
+    <parent_qid><![CDATA[166]]></parent_qid>
+    <sid><![CDATA[10951229]]></sid>
+    <gid><![CDATA[17]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[A4]]></title>
+    <question><![CDATA[<abbr title="Body Surface Area">BSA</abbr> detachment ≥10% (at day 1)]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[10]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance/>
+   </row>
+   <row>
+    <qid><![CDATA[174]]></qid>
+    <parent_qid><![CDATA[166]]></parent_qid>
+    <sid><![CDATA[10951229]]></sid>
+    <gid><![CDATA[17]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[A5]]></title>
+    <question><![CDATA[Serum <abbr title="Blood Urea Nitrogen">BUN</abbr> >10 mmol/L]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[13]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance/>
+   </row>
+   <row>
+    <qid><![CDATA[175]]></qid>
+    <parent_qid><![CDATA[166]]></parent_qid>
+    <sid><![CDATA[10951229]]></sid>
+    <gid><![CDATA[17]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[A6]]></title>
+    <question><![CDATA[Serum bicarbonate level <20 mmol/L]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[16]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance/>
+   </row>
+   <row>
+    <qid><![CDATA[176]]></qid>
+    <parent_qid><![CDATA[166]]></parent_qid>
+    <sid><![CDATA[10951229]]></sid>
+    <gid><![CDATA[17]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[A7]]></title>
+    <question><![CDATA[Serum glucose level >14 mmol/L]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[20]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance/>
+   </row>
+   <row>
+    <qid><![CDATA[177]]></qid>
+    <parent_qid><![CDATA[167]]></parent_qid>
+    <sid><![CDATA[10951229]]></sid>
+    <gid><![CDATA[17]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[A1]]></title>
+    <question><![CDATA[Age ≥40 years]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance/>
+   </row>
+   <row>
+    <qid><![CDATA[178]]></qid>
+    <parent_qid><![CDATA[167]]></parent_qid>
+    <sid><![CDATA[10951229]]></sid>
+    <gid><![CDATA[17]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[A2]]></title>
+    <question><![CDATA[Heart rate ≥120 beats per min]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[2]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance/>
+   </row>
+   <row>
+    <qid><![CDATA[179]]></qid>
+    <parent_qid><![CDATA[167]]></parent_qid>
+    <sid><![CDATA[10951229]]></sid>
+    <gid><![CDATA[17]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[A3]]></title>
+    <question><![CDATA[Cancer/hematologic malignancy]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[3]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance/>
+   </row>
+   <row>
+    <qid><![CDATA[180]]></qid>
+    <parent_qid><![CDATA[167]]></parent_qid>
+    <sid><![CDATA[10951229]]></sid>
+    <gid><![CDATA[17]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[A4]]></title>
+    <question><![CDATA[<abbr title="Body Surface Area">BSA</abbr> detachment ≥10% (at day 1)]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[4]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance/>
+   </row>
+   <row>
+    <qid><![CDATA[181]]></qid>
+    <parent_qid><![CDATA[167]]></parent_qid>
+    <sid><![CDATA[10951229]]></sid>
+    <gid><![CDATA[17]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[A5]]></title>
+    <question><![CDATA[Serum <abbr title="Blood Urea Nitrogen">BUN</abbr> >28 mg/dL]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[5]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance/>
+   </row>
+   <row>
+    <qid><![CDATA[182]]></qid>
+    <parent_qid><![CDATA[167]]></parent_qid>
+    <sid><![CDATA[10951229]]></sid>
+    <gid><![CDATA[17]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[A6]]></title>
+    <question><![CDATA[Serum bicarbonate level <20 mEq/L]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[6]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance/>
+   </row>
+   <row>
+    <qid><![CDATA[183]]></qid>
+    <parent_qid><![CDATA[167]]></parent_qid>
+    <sid><![CDATA[10951229]]></sid>
+    <gid><![CDATA[17]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[A7]]></title>
+    <question><![CDATA[Serum glucose level >252 mg/dL]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[7]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance/>
+   </row>
+  </rows>
+ </subquestions>
+ <question_attributes>
+  <fields>
+   <fieldname>qid</fieldname>
+   <fieldname>attribute</fieldname>
+   <fieldname>value</fieldname>
+   <fieldname>language</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <qid><![CDATA[165]]></qid>
+    <attribute><![CDATA[alphasort]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[165]]></qid>
+    <attribute><![CDATA[array_filter]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[165]]></qid>
+    <attribute><![CDATA[array_filter_exclude]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[165]]></qid>
+    <attribute><![CDATA[array_filter_style]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[165]]></qid>
+    <attribute><![CDATA[display_columns]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[165]]></qid>
+    <attribute><![CDATA[hidden]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[165]]></qid>
+    <attribute><![CDATA[hide_tip]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[165]]></qid>
+    <attribute><![CDATA[other_comment_mandatory]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[165]]></qid>
+    <attribute><![CDATA[other_numbers_only]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[165]]></qid>
+    <attribute><![CDATA[other_replace_text]]></attribute>
+    <value/>
+    <language><![CDATA[en]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[165]]></qid>
+    <attribute><![CDATA[page_break]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[165]]></qid>
+    <attribute><![CDATA[public_statistics]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[165]]></qid>
+    <attribute><![CDATA[random_group]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[165]]></qid>
+    <attribute><![CDATA[random_order]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[165]]></qid>
+    <attribute><![CDATA[scale_export]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[166]]></qid>
+    <attribute><![CDATA[array_filter]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[166]]></qid>
+    <attribute><![CDATA[array_filter_exclude]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[166]]></qid>
+    <attribute><![CDATA[array_filter_style]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[166]]></qid>
+    <attribute><![CDATA[assessment_value]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[166]]></qid>
+    <attribute><![CDATA[display_columns]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[166]]></qid>
+    <attribute><![CDATA[em_validation_q]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[166]]></qid>
+    <attribute><![CDATA[em_validation_q_tip]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[166]]></qid>
+    <attribute><![CDATA[exclude_all_others]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[166]]></qid>
+    <attribute><![CDATA[exclude_all_others_auto]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[166]]></qid>
+    <attribute><![CDATA[hidden]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[166]]></qid>
+    <attribute><![CDATA[hide_tip]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[166]]></qid>
+    <attribute><![CDATA[max_answers]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[166]]></qid>
+    <attribute><![CDATA[min_answers]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[166]]></qid>
+    <attribute><![CDATA[other_numbers_only]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[166]]></qid>
+    <attribute><![CDATA[other_replace_text]]></attribute>
+    <value/>
+    <language><![CDATA[en]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[166]]></qid>
+    <attribute><![CDATA[page_break]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[166]]></qid>
+    <attribute><![CDATA[public_statistics]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[166]]></qid>
+    <attribute><![CDATA[random_group]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[166]]></qid>
+    <attribute><![CDATA[random_order]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[166]]></qid>
+    <attribute><![CDATA[scale_export]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[167]]></qid>
+    <attribute><![CDATA[array_filter]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[167]]></qid>
+    <attribute><![CDATA[array_filter_exclude]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[167]]></qid>
+    <attribute><![CDATA[array_filter_style]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[167]]></qid>
+    <attribute><![CDATA[assessment_value]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[167]]></qid>
+    <attribute><![CDATA[display_columns]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[167]]></qid>
+    <attribute><![CDATA[em_validation_q]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[167]]></qid>
+    <attribute><![CDATA[em_validation_q_tip]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[167]]></qid>
+    <attribute><![CDATA[exclude_all_others]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[167]]></qid>
+    <attribute><![CDATA[exclude_all_others_auto]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[167]]></qid>
+    <attribute><![CDATA[hidden]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[167]]></qid>
+    <attribute><![CDATA[hide_tip]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[167]]></qid>
+    <attribute><![CDATA[max_answers]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[167]]></qid>
+    <attribute><![CDATA[min_answers]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[167]]></qid>
+    <attribute><![CDATA[other_numbers_only]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[167]]></qid>
+    <attribute><![CDATA[other_replace_text]]></attribute>
+    <value/>
+    <language><![CDATA[en]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[167]]></qid>
+    <attribute><![CDATA[page_break]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[167]]></qid>
+    <attribute><![CDATA[public_statistics]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[167]]></qid>
+    <attribute><![CDATA[random_group]]></attribute>
+    <value/>
+   </row>
+   <row>
+    <qid><![CDATA[167]]></qid>
+    <attribute><![CDATA[random_order]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[167]]></qid>
+    <attribute><![CDATA[scale_export]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[168]]></qid>
+    <attribute><![CDATA[hidden]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[168]]></qid>
+    <attribute><![CDATA[numbers_only]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[168]]></qid>
+    <attribute><![CDATA[page_break]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[168]]></qid>
+    <attribute><![CDATA[public_statistics]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[168]]></qid>
+    <attribute><![CDATA[scale_export]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[169]]></qid>
+    <attribute><![CDATA[hidden]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[169]]></qid>
+    <attribute><![CDATA[numbers_only]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[169]]></qid>
+    <attribute><![CDATA[page_break]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[169]]></qid>
+    <attribute><![CDATA[public_statistics]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[169]]></qid>
+    <attribute><![CDATA[scale_export]]></attribute>
+    <value><![CDATA[0]]></value>
+   </row>
+  </rows>
+ </question_attributes>
+ <surveys>
+  <fields>
+   <fieldname>sid</fieldname>
+   <fieldname>admin</fieldname>
+   <fieldname>expires</fieldname>
+   <fieldname>startdate</fieldname>
+   <fieldname>adminemail</fieldname>
+   <fieldname>anonymized</fieldname>
+   <fieldname>faxto</fieldname>
+   <fieldname>format</fieldname>
+   <fieldname>savetimings</fieldname>
+   <fieldname>template</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>additional_languages</fieldname>
+   <fieldname>datestamp</fieldname>
+   <fieldname>usecookie</fieldname>
+   <fieldname>allowregister</fieldname>
+   <fieldname>allowsave</fieldname>
+   <fieldname>autonumber_start</fieldname>
+   <fieldname>autoredirect</fieldname>
+   <fieldname>allowprev</fieldname>
+   <fieldname>printanswers</fieldname>
+   <fieldname>ipaddr</fieldname>
+   <fieldname>refurl</fieldname>
+   <fieldname>publicstatistics</fieldname>
+   <fieldname>publicgraphs</fieldname>
+   <fieldname>listpublic</fieldname>
+   <fieldname>htmlemail</fieldname>
+   <fieldname>sendconfirmation</fieldname>
+   <fieldname>tokenanswerspersistence</fieldname>
+   <fieldname>assessments</fieldname>
+   <fieldname>usecaptcha</fieldname>
+   <fieldname>usetokens</fieldname>
+   <fieldname>bounce_email</fieldname>
+   <fieldname>attributedescriptions</fieldname>
+   <fieldname>emailresponseto</fieldname>
+   <fieldname>emailnotificationto</fieldname>
+   <fieldname>tokenlength</fieldname>
+   <fieldname>showxquestions</fieldname>
+   <fieldname>showgroupinfo</fieldname>
+   <fieldname>shownoanswer</fieldname>
+   <fieldname>showqnumcode</fieldname>
+   <fieldname>bouncetime</fieldname>
+   <fieldname>bounceprocessing</fieldname>
+   <fieldname>bounceaccounttype</fieldname>
+   <fieldname>bounceaccounthost</fieldname>
+   <fieldname>bounceaccountpass</fieldname>
+   <fieldname>bounceaccountencryption</fieldname>
+   <fieldname>bounceaccountuser</fieldname>
+   <fieldname>showwelcome</fieldname>
+   <fieldname>showprogress</fieldname>
+   <fieldname>questionindex</fieldname>
+   <fieldname>navigationdelay</fieldname>
+   <fieldname>nokeyboard</fieldname>
+   <fieldname>alloweditaftercompletion</fieldname>
+   <fieldname>googleanalyticsstyle</fieldname>
+   <fieldname>googleanalyticsapikey</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <sid><![CDATA[10951229]]></sid>
+    <admin/>
+    <adminemail/>
+    <anonymized><![CDATA[Y]]></anonymized>
+    <faxto/>
+    <format><![CDATA[G]]></format>
+    <savetimings><![CDATA[N]]></savetimings>
+    <template><![CDATA[default]]></template>
+    <language><![CDATA[en]]></language>
+    <additional_languages/>
+    <datestamp><![CDATA[Y]]></datestamp>
+    <usecookie><![CDATA[N]]></usecookie>
+    <allowregister><![CDATA[N]]></allowregister>
+    <allowsave><![CDATA[N]]></allowsave>
+    <autonumber_start><![CDATA[7]]></autonumber_start>
+    <autoredirect><![CDATA[N]]></autoredirect>
+    <allowprev><![CDATA[N]]></allowprev>
+    <printanswers><![CDATA[Y]]></printanswers>
+    <ipaddr><![CDATA[Y]]></ipaddr>
+    <refurl><![CDATA[Y]]></refurl>
+    <publicstatistics><![CDATA[N]]></publicstatistics>
+    <publicgraphs><![CDATA[N]]></publicgraphs>
+    <listpublic><![CDATA[N]]></listpublic>
+    <htmlemail><![CDATA[Y]]></htmlemail>
+    <sendconfirmation><![CDATA[Y]]></sendconfirmation>
+    <tokenanswerspersistence><![CDATA[N]]></tokenanswerspersistence>
+    <assessments><![CDATA[Y]]></assessments>
+    <usecaptcha><![CDATA[N]]></usecaptcha>
+    <usetokens><![CDATA[N]]></usetokens>
+    <bounce_email/>
+    <attributedescriptions/>
+    <emailresponseto/>
+    <emailnotificationto/>
+    <tokenlength><![CDATA[15]]></tokenlength>
+    <showxquestions><![CDATA[N]]></showxquestions>
+    <showgroupinfo><![CDATA[N]]></showgroupinfo>
+    <shownoanswer><![CDATA[Y]]></shownoanswer>
+    <showqnumcode><![CDATA[X]]></showqnumcode>
+    <bouncetime><![CDATA[0]]></bouncetime>
+    <bounceprocessing><![CDATA[N]]></bounceprocessing>
+    <bounceaccounttype/>
+    <bounceaccounthost/>
+    <bounceaccountpass/>
+    <bounceaccountencryption/>
+    <bounceaccountuser/>
+    <showwelcome><![CDATA[N]]></showwelcome>
+    <showprogress><![CDATA[N]]></showprogress>
+    <questionindex><![CDATA[0]]></questionindex>
+    <navigationdelay><![CDATA[0]]></navigationdelay>
+    <nokeyboard><![CDATA[N]]></nokeyboard>
+    <alloweditaftercompletion><![CDATA[N]]></alloweditaftercompletion>
+    <googleanalyticsstyle><![CDATA[0]]></googleanalyticsstyle>
+    <googleanalyticsapikey/>
+   </row>
+  </rows>
+ </surveys>
+ <surveys_languagesettings>
+  <fields>
+   <fieldname>surveyls_survey_id</fieldname>
+   <fieldname>surveyls_language</fieldname>
+   <fieldname>surveyls_title</fieldname>
+   <fieldname>surveyls_description</fieldname>
+   <fieldname>surveyls_welcometext</fieldname>
+   <fieldname>surveyls_endtext</fieldname>
+   <fieldname>surveyls_url</fieldname>
+   <fieldname>surveyls_urldescription</fieldname>
+   <fieldname>surveyls_email_invite_subj</fieldname>
+   <fieldname>surveyls_email_invite</fieldname>
+   <fieldname>surveyls_email_remind_subj</fieldname>
+   <fieldname>surveyls_email_remind</fieldname>
+   <fieldname>surveyls_email_register_subj</fieldname>
+   <fieldname>surveyls_email_register</fieldname>
+   <fieldname>surveyls_email_confirm_subj</fieldname>
+   <fieldname>surveyls_email_confirm</fieldname>
+   <fieldname>surveyls_dateformat</fieldname>
+   <fieldname>surveyls_attributecaptions</fieldname>
+   <fieldname>email_admin_notification_subj</fieldname>
+   <fieldname>email_admin_notification</fieldname>
+   <fieldname>email_admin_responses_subj</fieldname>
+   <fieldname>email_admin_responses</fieldname>
+   <fieldname>surveyls_numberformat</fieldname>
+   <fieldname>attachments</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <surveyls_survey_id><![CDATA[10951229]]></surveyls_survey_id>
+    <surveyls_language><![CDATA[en]]></surveyls_language>
+    <surveyls_title><![CDATA[SCORTEN for Toxic Epidermal Necrolysis <q>Bastuji-Garin et al. 2000</q>]]></surveyls_title>
+    <surveyls_description><![CDATA[Bastuji-garin S, Fouchard N, Bertocchi M, Roujeau JC, Revuz J, Wolkenstein P. SCORTEN: a severity-of-illness score for toxic epidermal necrolysis. J Invest Dermatol. 2000;115(2):149-53. <a class="external" href="http://www.ncbi.nlm.nih.gov/pubmed/10951229" target="pubmed">PMID: 10951229</a> ]]></surveyls_description>
+    <surveyls_welcometext/>
+    <surveyls_endtext><![CDATA[<script type="text/javascript">
+
+var ACT = '{ASSESSMENT_CURRENT_TOTAL}';
+
+if(ACT <= 1) { document.write('<style>.r0{ color:#fff;font-weight:bold;background:limegreen;font-weight:bold}</style>')};
+
+if(ACT == 2 ) { document.write('<style>.r1{ color:#fff;background:lightsteelblue;font-weight:bold}</style>')};
+
+if(ACT == 3 ) { document.write('<style>.r2{ color:#fff;background:coral;font-weight:bold}</style>')};
+
+if(ACT == 4 ) { document.write('<style>.r3{ color:#fff;background:red;font-weight:bold}</style>')};
+
+if(ACT > 4 ) { document.write('<style>.r4{ color:#fff;background:crimson;font-weight:bold}</style>')};
+
+</script><center>
+<table class="noprint" id="assess_tbl">
+	<tbody>
+		<tr class="head">
+			<td>
+				SCORTEN</td>
+			<td>
+				Mortality %</td>
+			<td>
+				95% CI</td>
+		</tr>
+		<tr class="r0">
+			<td>
+				0-1</td>
+			<td>
+				3.2</td>
+			<td>
+				(0.1-16.7)</td>
+		</tr>
+		<tr class="r1">
+			<td>
+				2</td>
+			<td>
+				12.1</td>
+			<td>
+				(5.4-22.5)</td>
+		</tr>
+		<tr class="r2">
+			<td>
+				3</td>
+			<td>
+				35.3</td>
+			<td>
+				(19.8-53.5)</td>
+		</tr>
+		<tr class="r3">
+			<td>
+				4</td>
+			<td>
+				58.3</td>
+			<td>
+				(36.6-77.9)</td>
+		</tr>
+		<tr class="r4">
+			<td>
+				≥5</td>
+			<td>
+				90</td>
+			<td>
+				(55.5-99.8)</td>
+		</tr>
+	</tbody>
+</table></center>
+]]></surveyls_endtext>
+    <surveyls_url/>
+    <surveyls_urldescription/>
+    <surveyls_email_invite_subj><![CDATA[Invitation to participate in survey]]></surveyls_email_invite_subj>
+    <surveyls_email_invite><![CDATA[You have been invited to participate in a survey.<br /><br />Title:<br />"{SURVEYNAME}"<br /><br />"{SURVEYDESCRIPTION}"<br />----------------------------------------------<br />Click here to do the survey:<br />{SURVEYURL}]]></surveyls_email_invite>
+    <surveyls_email_remind_subj><![CDATA[Reminder to participate in survey]]></surveyls_email_remind_subj>
+    <surveyls_email_remind><![CDATA[Dear {FIRSTNAME},<br /><br />Recently we invited you to participate in a survey.Title:<br />"{SURVEYNAME}"<br /><br />"{SURVEYDESCRIPTION}"<br />----------------------------------------------<br />Click here to do the survey:<br />{SURVEYURL}]]></surveyls_email_remind>
+    <surveyls_email_register_subj><![CDATA[Survey registration confirmation]]></surveyls_email_register_subj>
+    <surveyls_email_register><![CDATA[You, or someone using your email address, have registered to participate in an online survey titled {SURVEYNAME}.<br /><br />To complete this survey, click on the following URL:<br /><br />{SURVEYURL}<br /><br />If you have any questions about this survey, or if you did not register to participate and believe this email is in error, please contact {ADMINNAME} at {ADMINEMAIL}.]]></surveyls_email_register>
+    <surveyls_email_confirm_subj><![CDATA[Confirmation of completed survey]]></surveyls_email_confirm_subj>
+    <surveyls_email_confirm><![CDATA[Dear {FIRSTNAME},<br /><br />This email is to confirm that you have completed the survey titled {SURVEYNAME} and your response has been saved. Thank you for participating.<br /><br />If you have any further questions about this email, please contact {ADMINNAME} at {ADMINEMAIL}.<br /><br />Sincerely,<br /><br />{ADMINNAME}]]></surveyls_email_confirm>
+    <surveyls_dateformat><![CDATA[1]]></surveyls_dateformat>
+    <email_admin_notification_subj><![CDATA[Response submission for survey {SURVEYNAME}]]></email_admin_notification_subj>
+    <email_admin_notification><![CDATA[Hello,<br />
+<br />
+A new response was submitted for your survey '{SURVEYNAME}'.<br />
+<br />
+Click the following link to reload the survey:<br />
+{RELOADURL}<br />
+<br />
+Click the following link to see the individual response:<br />
+{VIEWRESPONSEURL}<br />
+<br />
+Click the following link to edit the individual response:<br />
+{EDITRESPONSEURL}<br />
+<br />
+View statistics by clicking here:<br />
+{STATISTICSURL}]]></email_admin_notification>
+    <email_admin_responses_subj><![CDATA[Response submission for survey {SURVEYNAME} with results]]></email_admin_responses_subj>
+    <email_admin_responses><![CDATA[Hello,<br />
+<br />
+A new response was submitted for your survey '{SURVEYNAME}'.<br />
+<br />
+Click the following link to reload the survey:<br />
+{RELOADURL}<br />
+<br />
+Click the following link to see the individual response:<br />
+{VIEWRESPONSEURL}<br />
+<br />
+Click the following link to edit the individual response:<br />
+{EDITRESPONSEURL}<br />
+<br />
+View statistics by clicking here:<br />
+{STATISTICSURL}<br />
+<br />
+<br />
+The following answers were given by the participant:<br />
+{ANSWERTABLE}]]></email_admin_responses>
+    <surveyls_numberformat><![CDATA[0]]></surveyls_numberformat>
+   </row>
+  </rows>
+ </surveys_languagesettings>
+</document>
