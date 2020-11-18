@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
- * @Tool		Drug Interaction Probability Scale for LimeSurvey
+ * @Tool	Drug Interaction Probability Scale for LimeSurvey
  * @Copyright	Copyright 2020 MONTANÉ Eva 
- * @License		MIT http://mit-license.org
+ * @License	MIT http://mit-license.org
 -->
 <document>
  <LimeSurveyDocType>Survey</LimeSurveyDocType>
